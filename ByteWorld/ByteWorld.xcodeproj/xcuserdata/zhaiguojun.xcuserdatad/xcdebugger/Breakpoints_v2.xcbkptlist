@@ -116,57 +116,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ByteWorld/JYWaterFall/JYWaterFallViewController.m"
-            timestampString = "449480435.322735"
+            timestampString = "449553457.492957"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[JYWaterFallViewController collectionView:cellForItemAtIndexPath:]"
-                  moduleName = "ByteWorld"
-                  urlString = "file:///Users/zhaiguojun/Desktop/%E6%9C%80%E6%96%B0%E4%BB%A3%E7%A0%81Demo/ByteWorld/ByteWorld/JYWaterFall/JYWaterFallViewController.m"
-                  timestampString = "449480476.446011"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "68"
-                  endingLineNumber = "68"
-                  offsetFromSymbolStart = "216">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__67-[JYWaterFallViewController collectionView:cellForItemAtIndexPath:]_block_invoke"
-                  moduleName = "ByteWorld"
-                  urlString = "file:///Users/zhaiguojun/Desktop/%E6%9C%80%E6%96%B0%E4%BB%A3%E7%A0%81Demo/ByteWorld/ByteWorld/JYWaterFall/JYWaterFallViewController.m"
-                  timestampString = "449480476.446113"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "68"
-                  endingLineNumber = "68"
-                  offsetFromSymbolStart = "108">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ByteWorld/JYWaterFall/JYWaterFallViewController.m"
-            timestampString = "449480437.370048"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "-collectionView:cellForItemAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
