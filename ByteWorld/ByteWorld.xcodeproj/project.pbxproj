@@ -43,6 +43,11 @@
 		FE8F54551AD10E44009FA217 /* JYLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54541AD10E44009FA217 /* JYLockViewController.m */; };
 		FE8F54581AD10F7F009FA217 /* JYLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54571AD10F7F009FA217 /* JYLockView.m */; };
 		FE8F54601AD12616009FA217 /* JYClockSlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F545F1AD12616009FA217 /* JYClockSlipViewController.m */; };
+		FE8F546D1AD128BF009FA217 /* JYListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54641AD128BF009FA217 /* JYListTableViewController.m */; };
+		FE8F546E1AD128BF009FA217 /* JYFriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54671AD128BF009FA217 /* JYFriendsModel.m */; };
+		FE8F546F1AD128BF009FA217 /* JYGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54691AD128BF009FA217 /* JYGroupModel.m */; };
+		FE8F54701AD128BF009FA217 /* JYHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F546C1AD128BF009FA217 /* JYHeaderView.m */; };
+		FE8F54721AD1294C009FA217 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE8F54711AD1294C009FA217 /* friends.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +133,15 @@
 		FE8F54571AD10F7F009FA217 /* JYLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYLockView.m; sourceTree = "<group>"; };
 		FE8F545E1AD12616009FA217 /* JYClockSlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYClockSlipViewController.h; sourceTree = "<group>"; };
 		FE8F545F1AD12616009FA217 /* JYClockSlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYClockSlipViewController.m; sourceTree = "<group>"; };
+		FE8F54631AD128BF009FA217 /* JYListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYListTableViewController.h; sourceTree = "<group>"; };
+		FE8F54641AD128BF009FA217 /* JYListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYListTableViewController.m; sourceTree = "<group>"; };
+		FE8F54661AD128BF009FA217 /* JYFriendsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYFriendsModel.h; sourceTree = "<group>"; };
+		FE8F54671AD128BF009FA217 /* JYFriendsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYFriendsModel.m; sourceTree = "<group>"; };
+		FE8F54681AD128BF009FA217 /* JYGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYGroupModel.h; sourceTree = "<group>"; };
+		FE8F54691AD128BF009FA217 /* JYGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYGroupModel.m; sourceTree = "<group>"; };
+		FE8F546B1AD128BF009FA217 /* JYHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYHeaderView.h; sourceTree = "<group>"; };
+		FE8F546C1AD128BF009FA217 /* JYHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYHeaderView.m; sourceTree = "<group>"; };
+		FE8F54711AD1294C009FA217 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +231,7 @@
 		CB6C19511ACA3307002E8D76 /* ByteWorld */ = {
 			isa = PBXGroup;
 			children = (
+				FE8F54611AD12848009FA217 /* QQList */,
 				FE8F545D1AD12616009FA217 /* PictureClockSlip */,
 				FE8F54521AD10E36009FA217 /* Lock */,
 				FE8F544E1AD0DE3A009FA217 /* JYGesture */,
@@ -322,6 +337,46 @@
 			path = PictureClockSlip;
 			sourceTree = "<group>";
 		};
+		FE8F54611AD12848009FA217 /* QQList */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F54711AD1294C009FA217 /* friends.plist */,
+				FE8F54621AD128BF009FA217 /* Controller */,
+				FE8F54651AD128BF009FA217 /* Model */,
+				FE8F546A1AD128BF009FA217 /* View */,
+			);
+			path = QQList;
+			sourceTree = "<group>";
+		};
+		FE8F54621AD128BF009FA217 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F54631AD128BF009FA217 /* JYListTableViewController.h */,
+				FE8F54641AD128BF009FA217 /* JYListTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE8F54651AD128BF009FA217 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F54661AD128BF009FA217 /* JYFriendsModel.h */,
+				FE8F54671AD128BF009FA217 /* JYFriendsModel.m */,
+				FE8F54681AD128BF009FA217 /* JYGroupModel.h */,
+				FE8F54691AD128BF009FA217 /* JYGroupModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE8F546A1AD128BF009FA217 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F546B1AD128BF009FA217 /* JYHeaderView.h */,
+				FE8F546C1AD128BF009FA217 /* JYHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -405,6 +460,7 @@
 			files = (
 				CB6C195E1ACA3307002E8D76 /* Main.storyboard in Resources */,
 				CB6C19631ACA3307002E8D76 /* LaunchScreen.xib in Resources */,
+				FE8F54721AD1294C009FA217 /* friends.plist in Resources */,
 				CB6C19601ACA3307002E8D76 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,9 +479,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8F546E1AD128BF009FA217 /* JYFriendsModel.m in Sources */,
 				CB41DD5D1ACB85400082712F /* UIImage+GIF.m in Sources */,
 				CB6C19901ACA6A55002E8D76 /* JYTabPushViewController.m in Sources */,
 				CB41DD5B1ACB85400082712F /* SDWebImagePrefetcher.m in Sources */,
+				FE8F54701AD128BF009FA217 /* JYHeaderView.m in Sources */,
 				CB6C195B1ACA3307002E8D76 /* ViewController.m in Sources */,
 				FE8F54581AD10F7F009FA217 /* JYLockView.m in Sources */,
 				CB6C197E1ACA3566002E8D76 /* JYTabbarViewController.m in Sources */,
@@ -434,8 +492,10 @@
 				CB6C19951ACA81DE002E8D76 /* JYWaterFallViewController.m in Sources */,
 				FE8F54551AD10E44009FA217 /* JYLockViewController.m in Sources */,
 				CB41DD5C1ACB85400082712F /* UIButton+WebCache.m in Sources */,
+				FE8F546F1AD128BF009FA217 /* JYGroupModel.m in Sources */,
 				CB41DD591ACB85400082712F /* SDWebImageDownloaderOperation.m in Sources */,
 				FE8F54511AD0DE4D009FA217 /* JYPinGestureViewController.m in Sources */,
+				FE8F546D1AD128BF009FA217 /* JYListTableViewController.m in Sources */,
 				CB41DD651ACB91BF0082712F /* JYWaterFallCollectionViewCell.m in Sources */,
 				CB41DD531ACB85400082712F /* MKAnnotationView+WebCache.m in Sources */,
 				CB41DD561ACB85400082712F /* SDWebImageCompat.m in Sources */,

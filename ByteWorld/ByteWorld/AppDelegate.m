@@ -20,6 +20,9 @@
 //图片定时滑动
 #import "JYClockSlipViewController.h"
 
+//类似QQ列表实现
+#import "JYListTableViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -50,8 +53,13 @@
 //    self.window.rootViewController = lock;
     
     //图片定时滑动
-    JYClockSlipViewController *clockSlip = [[JYClockSlipViewController alloc]init];
-    self.window.rootViewController = clockSlip;
+//    JYClockSlipViewController *clockSlip = [[JYClockSlipViewController alloc]init];
+//    self.window.rootViewController = clockSlip;
+    
+    //QQ列表实现
+    JYListTableViewController *list = [[JYListTableViewController alloc]init];
+    UINavigationController *navList = [[UINavigationController alloc]initWithRootViewController:list];
+    self.window.rootViewController = navList;
     
     return YES;
 }
