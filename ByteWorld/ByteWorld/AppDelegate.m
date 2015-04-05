@@ -14,6 +14,9 @@
 //手势
 #import "JYPinGestureViewController.h"
 
+//手势锁
+#import "JYLockViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -35,9 +38,13 @@
 //    self.window.rootViewController = waterFall;
     
     //手势
-    JYPinGestureViewController *pin = [[JYPinGestureViewController alloc]init];
+//    JYPinGestureViewController *pin = [[JYPinGestureViewController alloc]init];
 //    UINavigationController *navPin = [[UINavigationController alloc]initWithRootViewController:pin];
-    self.window.rootViewController = pin;
+//    self.window.rootViewController = pin;
+    
+    //手势锁
+    JYLockViewController *lock = [[JYLockViewController alloc]init];
+    self.window.rootViewController = lock;
     
     return YES;
 }
