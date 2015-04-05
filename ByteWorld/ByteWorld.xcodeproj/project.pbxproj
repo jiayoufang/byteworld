@@ -39,6 +39,7 @@
 		CB6C198D1ACA4C6B002E8D76 /* JYTabBar4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6C198C1ACA4C6B002E8D76 /* JYTabBar4ViewController.m */; };
 		CB6C19901ACA6A55002E8D76 /* JYTabPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6C198F1ACA6A55002E8D76 /* JYTabPushViewController.m */; };
 		CB6C19951ACA81DE002E8D76 /* JYWaterFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6C19941ACA81DE002E8D76 /* JYWaterFallViewController.m */; };
+		FE8F54511AD0DE4D009FA217 /* JYPinGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54501AD0DE4D009FA217 /* JYPinGestureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +117,8 @@
 		CB6C198F1ACA6A55002E8D76 /* JYTabPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTabPushViewController.m; sourceTree = "<group>"; };
 		CB6C19931ACA81DE002E8D76 /* JYWaterFallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYWaterFallViewController.h; sourceTree = "<group>"; };
 		CB6C19941ACA81DE002E8D76 /* JYWaterFallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYWaterFallViewController.m; sourceTree = "<group>"; };
+		FE8F544F1AD0DE4D009FA217 /* JYPinGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPinGestureViewController.h; sourceTree = "<group>"; };
+		FE8F54501AD0DE4D009FA217 /* JYPinGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPinGestureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +208,7 @@
 		CB6C19511ACA3307002E8D76 /* ByteWorld */ = {
 			isa = PBXGroup;
 			children = (
+				FE8F544E1AD0DE3A009FA217 /* JYGesture */,
 				CB41DD301ACB85400082712F /* lib */,
 				CB6C19921ACA8053002E8D76 /* JYWaterFall */,
 				CB6C197B1ACA3566002E8D76 /* JYTabBarController */,
@@ -278,6 +282,15 @@
 			path = JYWaterFall;
 			sourceTree = "<group>";
 		};
+		FE8F544E1AD0DE3A009FA217 /* JYGesture */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F544F1AD0DE4D009FA217 /* JYPinGestureViewController.h */,
+				FE8F54501AD0DE4D009FA217 /* JYPinGestureViewController.m */,
+			);
+			path = JYGesture;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -322,6 +335,7 @@
 		CB6C19471ACA3307002E8D76 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JY;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "方";
 				TargetAttributes = {
@@ -388,6 +402,7 @@
 				CB6C19951ACA81DE002E8D76 /* JYWaterFallViewController.m in Sources */,
 				CB41DD5C1ACB85400082712F /* UIButton+WebCache.m in Sources */,
 				CB41DD591ACB85400082712F /* SDWebImageDownloaderOperation.m in Sources */,
+				FE8F54511AD0DE4D009FA217 /* JYPinGestureViewController.m in Sources */,
 				CB41DD651ACB91BF0082712F /* JYWaterFallCollectionViewCell.m in Sources */,
 				CB41DD531ACB85400082712F /* MKAnnotationView+WebCache.m in Sources */,
 				CB41DD561ACB85400082712F /* SDWebImageCompat.m in Sources */,

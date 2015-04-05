@@ -11,6 +11,9 @@
 //瀑布流
 #import "JYWaterFallViewController.h"
 
+//手势
+#import "JYPinGestureViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -26,9 +29,15 @@
     
 //    JYTabbarViewController *tabBarController = [[JYTabbarViewController alloc]init];
 //    self.window.rootViewController = tabBarController;
+
+    //瀑布流
+//    JYWaterFallViewController *waterFall = [[JYWaterFallViewController alloc]init];
+//    self.window.rootViewController = waterFall;
     
-    JYWaterFallViewController *waterFall = [[JYWaterFallViewController alloc]init];
-    self.window.rootViewController = waterFall;
+    //手势
+    JYPinGestureViewController *pin = [[JYPinGestureViewController alloc]init];
+//    UINavigationController *navPin = [[UINavigationController alloc]initWithRootViewController:pin];
+    self.window.rootViewController = pin;
     
     return YES;
 }
