@@ -17,6 +17,9 @@
 //手势锁
 #import "JYLockViewController.h"
 
+//图片定时滑动
+#import "JYClockSlipViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -43,8 +46,12 @@
 //    self.window.rootViewController = pin;
     
     //手势锁
-    JYLockViewController *lock = [[JYLockViewController alloc]init];
-    self.window.rootViewController = lock;
+//    JYLockViewController *lock = [[JYLockViewController alloc]init];
+//    self.window.rootViewController = lock;
+    
+    //图片定时滑动
+    JYClockSlipViewController *clockSlip = [[JYClockSlipViewController alloc]init];
+    self.window.rootViewController = clockSlip;
     
     return YES;
 }

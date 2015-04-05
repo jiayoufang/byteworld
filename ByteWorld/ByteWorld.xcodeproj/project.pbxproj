@@ -42,6 +42,7 @@
 		FE8F54511AD0DE4D009FA217 /* JYPinGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54501AD0DE4D009FA217 /* JYPinGestureViewController.m */; };
 		FE8F54551AD10E44009FA217 /* JYLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54541AD10E44009FA217 /* JYLockViewController.m */; };
 		FE8F54581AD10F7F009FA217 /* JYLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54571AD10F7F009FA217 /* JYLockView.m */; };
+		FE8F54601AD12616009FA217 /* JYClockSlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F545F1AD12616009FA217 /* JYClockSlipViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,8 @@
 		FE8F54541AD10E44009FA217 /* JYLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYLockViewController.m; sourceTree = "<group>"; };
 		FE8F54561AD10F7F009FA217 /* JYLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYLockView.h; sourceTree = "<group>"; };
 		FE8F54571AD10F7F009FA217 /* JYLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYLockView.m; sourceTree = "<group>"; };
+		FE8F545E1AD12616009FA217 /* JYClockSlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYClockSlipViewController.h; sourceTree = "<group>"; };
+		FE8F545F1AD12616009FA217 /* JYClockSlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYClockSlipViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +217,7 @@
 		CB6C19511ACA3307002E8D76 /* ByteWorld */ = {
 			isa = PBXGroup;
 			children = (
+				FE8F545D1AD12616009FA217 /* PictureClockSlip */,
 				FE8F54521AD10E36009FA217 /* Lock */,
 				FE8F544E1AD0DE3A009FA217 /* JYGesture */,
 				CB41DD301ACB85400082712F /* lib */,
@@ -307,6 +311,15 @@
 				FE8F54571AD10F7F009FA217 /* JYLockView.m */,
 			);
 			path = Lock;
+			sourceTree = "<group>";
+		};
+		FE8F545D1AD12616009FA217 /* PictureClockSlip */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F545E1AD12616009FA217 /* JYClockSlipViewController.h */,
+				FE8F545F1AD12616009FA217 /* JYClockSlipViewController.m */,
+			);
+			path = PictureClockSlip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,6 +451,7 @@
 				CB41DD5F1ACB85400082712F /* UIImage+WebP.m in Sources */,
 				CB41DD5A1ACB85400082712F /* SDWebImageManager.m in Sources */,
 				CB6C198D1ACA4C6B002E8D76 /* JYTabBar4ViewController.m in Sources */,
+				FE8F54601AD12616009FA217 /* JYClockSlipViewController.m in Sources */,
 				CB41DD681ACB91F10082712F /* JYWaterFallFlowLayout.m in Sources */,
 				CB6C19841ACA35D1002E8D76 /* JYTabBar1ViewController.m in Sources */,
 				CB41DD551ACB85400082712F /* SDImageCache.m in Sources */,
