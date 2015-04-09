@@ -26,6 +26,9 @@
 //动画效果
 #import "JYAnimationViewController.h"
 
+//各种控件
+#import "JYKit/JYKitViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -68,6 +71,11 @@
     JYAnimationViewController *animation = [[JYAnimationViewController alloc]init];
     UINavigationController *navAnimation = [[UINavigationController alloc]initWithRootViewController:animation];
     self.window.rootViewController = navAnimation;
+    
+    //各种控件
+//    JYKitViewController *kit = [[JYKitViewController alloc]init];
+//    UINavigationController *navKit = [[UINavigationController alloc]initWithRootViewController:kit];
+//    self.window.rootViewController = navKit;
     
     return YES;
 }
