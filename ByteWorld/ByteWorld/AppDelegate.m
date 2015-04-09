@@ -23,6 +23,9 @@
 //类似QQ列表实现
 #import "JYListTableViewController.h"
 
+//动画效果
+#import "JYAnimationViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -57,9 +60,14 @@
 //    self.window.rootViewController = clockSlip;
     
     //QQ列表实现
-    JYListTableViewController *list = [[JYListTableViewController alloc]init];
-    UINavigationController *navList = [[UINavigationController alloc]initWithRootViewController:list];
-    self.window.rootViewController = navList;
+//    JYListTableViewController *list = [[JYListTableViewController alloc]init];
+//    UINavigationController *navList = [[UINavigationController alloc]initWithRootViewController:list];
+//    self.window.rootViewController = navList;
+    
+    //动画效果
+    JYAnimationViewController *animation = [[JYAnimationViewController alloc]init];
+    UINavigationController *navAnimation = [[UINavigationController alloc]initWithRootViewController:animation];
+    self.window.rootViewController = navAnimation;
     
     return YES;
 }
