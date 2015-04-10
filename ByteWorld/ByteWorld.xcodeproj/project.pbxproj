@@ -46,6 +46,10 @@
 		CB8C1DE21AD6221E007A08B9 /* JYAnimation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C1DE11AD6221E007A08B9 /* JYAnimation1ViewController.m */; };
 		CB8C1DE51AD625DD007A08B9 /* JYAnimation2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C1DE41AD625DD007A08B9 /* JYAnimation2ViewController.m */; };
 		CB8C1DE81AD62FF8007A08B9 /* JYAnimation3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C1DE71AD62FF8007A08B9 /* JYAnimation3ViewController.m */; };
+		CBA844CD1AD75CA700AFECFF /* JYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA844CC1AD75CA700AFECFF /* JYWebViewController.m */; };
+		CBA844D11AD7650500AFECFF /* JYLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA844D01AD7650500AFECFF /* JYLabelViewController.m */; };
+		CBA844D41AD7651D00AFECFF /* JYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA844D31AD7651D00AFECFF /* JYLabel.m */; };
+		CBA844D81AD76BB200AFECFF /* JYButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA844D71AD76BB200AFECFF /* JYButtonViewController.m */; };
 		CBCF568B1AD650F70085EB16 /* JYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF568A1AD650F70085EB16 /* JYTableViewController.m */; };
 		CBCF568E1AD651250085EB16 /* JYKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF568D1AD651250085EB16 /* JYKitViewController.m */; };
 		CBCF56931AD65F540085EB16 /* JYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF56921AD65F540085EB16 /* JYAlertViewController.m */; };
@@ -150,6 +154,14 @@
 		CB8C1DE41AD625DD007A08B9 /* JYAnimation2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAnimation2ViewController.m; sourceTree = "<group>"; };
 		CB8C1DE61AD62FF8007A08B9 /* JYAnimation3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAnimation3ViewController.h; sourceTree = "<group>"; };
 		CB8C1DE71AD62FF8007A08B9 /* JYAnimation3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAnimation3ViewController.m; sourceTree = "<group>"; };
+		CBA844CB1AD75CA700AFECFF /* JYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYWebViewController.h; sourceTree = "<group>"; };
+		CBA844CC1AD75CA700AFECFF /* JYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYWebViewController.m; sourceTree = "<group>"; };
+		CBA844CF1AD7650500AFECFF /* JYLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYLabelViewController.h; sourceTree = "<group>"; };
+		CBA844D01AD7650500AFECFF /* JYLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYLabelViewController.m; sourceTree = "<group>"; };
+		CBA844D21AD7651D00AFECFF /* JYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYLabel.h; sourceTree = "<group>"; };
+		CBA844D31AD7651D00AFECFF /* JYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYLabel.m; sourceTree = "<group>"; };
+		CBA844D61AD76BB200AFECFF /* JYButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYButtonViewController.h; sourceTree = "<group>"; };
+		CBA844D71AD76BB200AFECFF /* JYButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYButtonViewController.m; sourceTree = "<group>"; };
 		CBCF56891AD650F70085EB16 /* JYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTableViewController.h; sourceTree = "<group>"; };
 		CBCF568A1AD650F70085EB16 /* JYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTableViewController.m; sourceTree = "<group>"; };
 		CBCF568C1AD651250085EB16 /* JYKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYKitViewController.h; sourceTree = "<group>"; };
@@ -366,9 +378,49 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		CBA844CA1AD75C9500AFECFF /* UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				CBA844CB1AD75CA700AFECFF /* JYWebViewController.h */,
+				CBA844CC1AD75CA700AFECFF /* JYWebViewController.m */,
+			);
+			name = UIWebView;
+			sourceTree = "<group>";
+		};
+		CBA844CE1AD764F700AFECFF /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				CBA844CF1AD7650500AFECFF /* JYLabelViewController.h */,
+				CBA844D01AD7650500AFECFF /* JYLabelViewController.m */,
+				CBA844D21AD7651D00AFECFF /* JYLabel.h */,
+				CBA844D31AD7651D00AFECFF /* JYLabel.m */,
+			);
+			name = UILabel;
+			sourceTree = "<group>";
+		};
+		CBA844D51AD76BA500AFECFF /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				CBA844D61AD76BB200AFECFF /* JYButtonViewController.h */,
+				CBA844D71AD76BB200AFECFF /* JYButtonViewController.m */,
+			);
+			name = UIButton;
+			sourceTree = "<group>";
+		};
+		CBA844D91AD76BE200AFECFF /* UICollection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UICollection;
+			sourceTree = "<group>";
+		};
 		CBCF56881AD650D30085EB16 /* JYKit */ = {
 			isa = PBXGroup;
 			children = (
+				CBA844D91AD76BE200AFECFF /* UICollection */,
+				CBA844D51AD76BA500AFECFF /* UIButton */,
+				CBA844CE1AD764F700AFECFF /* UILabel */,
+				CBA844CA1AD75C9500AFECFF /* UIWebView */,
 				CBCF56901AD65A0F0085EB16 /* UIAlertView */,
 				CBCF568F1AD651330085EB16 /* UITableView */,
 				CBCF568C1AD651250085EB16 /* JYKitViewController.h */,
@@ -567,6 +619,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE8F546E1AD128BF009FA217 /* JYFriendsModel.m in Sources */,
+				CBA844D41AD7651D00AFECFF /* JYLabel.m in Sources */,
 				CB41DD5D1ACB85400082712F /* UIImage+GIF.m in Sources */,
 				CB6C19901ACA6A55002E8D76 /* JYTabPushViewController.m in Sources */,
 				CB41DD5B1ACB85400082712F /* SDWebImagePrefetcher.m in Sources */,
@@ -582,6 +635,7 @@
 				CB8C1DDC1AD61AA3007A08B9 /* JYAnimationViewController.m in Sources */,
 				FE8F54551AD10E44009FA217 /* JYLockViewController.m in Sources */,
 				CB41DD5C1ACB85400082712F /* UIButton+WebCache.m in Sources */,
+				CBA844CD1AD75CA700AFECFF /* JYWebViewController.m in Sources */,
 				CB8C1DE21AD6221E007A08B9 /* JYAnimation1ViewController.m in Sources */,
 				CBCF568B1AD650F70085EB16 /* JYTableViewController.m in Sources */,
 				FE8F546F1AD128BF009FA217 /* JYGroupModel.m in Sources */,
@@ -600,7 +654,9 @@
 				CB41DD611ACB85400082712F /* UIImageView+WebCache.m in Sources */,
 				CB6C198A1ACA35E8002E8D76 /* JYTabBar3ViewController.m in Sources */,
 				CB41DD621ACB85400082712F /* UIView+WebCacheOperation.m in Sources */,
+				CBA844D81AD76BB200AFECFF /* JYButtonViewController.m in Sources */,
 				CB6C19871ACA35DA002E8D76 /* JYTabBar2ViewController.m in Sources */,
+				CBA844D11AD7650500AFECFF /* JYLabelViewController.m in Sources */,
 				CB41DD581ACB85400082712F /* SDWebImageDownloader.m in Sources */,
 				CB41DD601ACB85400082712F /* UIImageView+HighlightedWebCache.m in Sources */,
 				CB5F0FD11AD648C700E2D907 /* JYAnimation5ViewController.m in Sources */,

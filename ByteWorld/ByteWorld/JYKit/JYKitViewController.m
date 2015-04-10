@@ -32,7 +32,7 @@
 -(NSArray*)dataArray
 {
     if (!_dataArray) {
-        _dataArray = @[@"JYTableViewController",@"JYAlertViewController"];
+        _dataArray = @[@"JYTableViewController",@"JYAlertViewController",@"JYWebViewController",@"JYLabelViewController",@"JYButtonViewController"];
     }
     return _dataArray;
 }
@@ -41,6 +41,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.navigationItem.title = @"各种控件";
     
     [self.view addSubview:self.tableView];
     
