@@ -60,6 +60,7 @@
 		CBAE63651AD7AF9A00F0AD9F /* UILabel+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63641AD7AF9A00F0AD9F /* UILabel+Additions.m */; };
 		CBAE63681AD7B22100F0AD9F /* UILabel+VerticalAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63671AD7B22100F0AD9F /* UILabel+VerticalAlignment.m */; };
 		CBAE636B1AD7B40800F0AD9F /* UILabel+AutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE636A1AD7B40800F0AD9F /* UILabel+AutomaticWriting.m */; };
+		CBAE636E1AD7C9DA00F0AD9F /* JSBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE636D1AD7C9DA00F0AD9F /* JSBadgeView.m */; };
 		CBCF568B1AD650F70085EB16 /* JYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF568A1AD650F70085EB16 /* JYTableViewController.m */; };
 		CBCF568E1AD651250085EB16 /* JYKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF568D1AD651250085EB16 /* JYKitViewController.m */; };
 		CBCF56931AD65F540085EB16 /* JYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF56921AD65F540085EB16 /* JYAlertViewController.m */; };
@@ -192,6 +193,8 @@
 		CBAE63671AD7B22100F0AD9F /* UILabel+VerticalAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+VerticalAlignment.m"; sourceTree = "<group>"; };
 		CBAE63691AD7B40800F0AD9F /* UILabel+AutomaticWriting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutomaticWriting.h"; sourceTree = "<group>"; };
 		CBAE636A1AD7B40800F0AD9F /* UILabel+AutomaticWriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutomaticWriting.m"; sourceTree = "<group>"; };
+		CBAE636C1AD7C9DA00F0AD9F /* JSBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBadgeView.h; sourceTree = "<group>"; };
+		CBAE636D1AD7C9DA00F0AD9F /* JSBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBadgeView.m; sourceTree = "<group>"; };
 		CBCF56891AD650F70085EB16 /* JYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTableViewController.h; sourceTree = "<group>"; };
 		CBCF568A1AD650F70085EB16 /* JYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTableViewController.m; sourceTree = "<group>"; };
 		CBCF568C1AD651250085EB16 /* JYKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYKitViewController.h; sourceTree = "<group>"; };
@@ -361,6 +364,8 @@
 		CB6C197B1ACA3566002E8D76 /* JYTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				CBAE636C1AD7C9DA00F0AD9F /* JSBadgeView.h */,
+				CBAE636D1AD7C9DA00F0AD9F /* JSBadgeView.m */,
 				CB6C197C1ACA3566002E8D76 /* JYTabbarViewController.h */,
 				CB6C197D1ACA3566002E8D76 /* JYTabbarViewController.m */,
 				CB6C19821ACA35D1002E8D76 /* JYTabBar1ViewController.h */,
@@ -767,6 +772,7 @@
 				CB5F0FD11AD648C700E2D907 /* JYAnimation5ViewController.m in Sources */,
 				CB41DD571ACB85400082712F /* SDWebImageDecoder.m in Sources */,
 				CB41DD5F1ACB85400082712F /* UIImage+WebP.m in Sources */,
+				CBAE636E1AD7C9DA00F0AD9F /* JSBadgeView.m in Sources */,
 				CBAE63621AD7A90200F0AD9F /* JYBlurViewController.m in Sources */,
 				CB41DD5A1ACB85400082712F /* SDWebImageManager.m in Sources */,
 				CBAE63521AD79E8800F0AD9F /* JYBaseView.m in Sources */,

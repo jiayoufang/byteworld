@@ -11,6 +11,7 @@
 #import "JYTabBar2ViewController.h"
 #import "JYTabBar3ViewController.h"
 #import "JYTabBar4ViewController.h"
+#import "JSBadgeView.h"
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
@@ -94,6 +95,10 @@ CGFloat const btnHeight = 45;
         btn.frame = CGRectMake(EACH_W(self.viewControllers.count) * i, (tabViewHeight-btnHeight)*0.5, EACH_W(self.viewControllers.count), btnHeight);
         btn.tag = 100+i;
         [btn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
+        
+        JSBadgeView *badgeView = [[JSBadgeView alloc]initWithParentView:btn alignment:JSBadgeViewAlignmentTopRight];
+        badgeView.badgeText = [NSString stringWithFormat:@"%d",i+96];
+        
         [self.tabBarView addSubview:btn];
         if (0 == i) {
             btn.selected = YES;

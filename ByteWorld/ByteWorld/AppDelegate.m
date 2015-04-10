@@ -48,8 +48,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-//    JYTabbarViewController *tabBarController = [[JYTabbarViewController alloc]init];
-//    self.window.rootViewController = tabBarController;
+    JYTabbarViewController *tabBarController = [[JYTabbarViewController alloc]init];
+    self.window.rootViewController = tabBarController;
 
     //瀑布流
 //    JYWaterFallViewController *waterFall = [[JYWaterFallViewController alloc]init];
@@ -79,9 +79,9 @@
 //    self.window.rootViewController = navAnimation;
     
     //各种控件
-    JYKitViewController *kit = [[JYKitViewController alloc]init];
-    UINavigationController *navKit = [[UINavigationController alloc]initWithRootViewController:kit];
-    self.window.rootViewController = navKit;
+//    JYKitViewController *kit = [[JYKitViewController alloc]init];
+//    UINavigationController *navKit = [[UINavigationController alloc]initWithRootViewController:kit];
+//    self.window.rootViewController = navKit;
     
 //    //注册程序Crash后的处理函数
     NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
