@@ -50,6 +50,7 @@
 		CBA844D11AD7650500AFECFF /* JYLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA844D01AD7650500AFECFF /* JYLabelViewController.m */; };
 		CBA844D41AD7651D00AFECFF /* JYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA844D31AD7651D00AFECFF /* JYLabel.m */; };
 		CBA844D81AD76BB200AFECFF /* JYButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA844D71AD76BB200AFECFF /* JYButtonViewController.m */; };
+		CBAE63451AD77B5A00F0AD9F /* KKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63441AD77B5A00F0AD9F /* KKLog.m */; };
 		CBCF568B1AD650F70085EB16 /* JYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF568A1AD650F70085EB16 /* JYTableViewController.m */; };
 		CBCF568E1AD651250085EB16 /* JYKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF568D1AD651250085EB16 /* JYKitViewController.m */; };
 		CBCF56931AD65F540085EB16 /* JYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF56921AD65F540085EB16 /* JYAlertViewController.m */; };
@@ -162,6 +163,8 @@
 		CBA844D31AD7651D00AFECFF /* JYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYLabel.m; sourceTree = "<group>"; };
 		CBA844D61AD76BB200AFECFF /* JYButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYButtonViewController.h; sourceTree = "<group>"; };
 		CBA844D71AD76BB200AFECFF /* JYButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYButtonViewController.m; sourceTree = "<group>"; };
+		CBAE63431AD77B5A00F0AD9F /* KKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLog.h; sourceTree = "<group>"; };
+		CBAE63441AD77B5A00F0AD9F /* KKLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLog.m; sourceTree = "<group>"; };
 		CBCF56891AD650F70085EB16 /* JYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTableViewController.h; sourceTree = "<group>"; };
 		CBCF568A1AD650F70085EB16 /* JYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTableViewController.m; sourceTree = "<group>"; };
 		CBCF568C1AD651250085EB16 /* JYKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYKitViewController.h; sourceTree = "<group>"; };
@@ -276,6 +279,7 @@
 		CB6C19511ACA3307002E8D76 /* ByteWorld */ = {
 			isa = PBXGroup;
 			children = (
+				CBAE63421AD7793900F0AD9F /* Log */,
 				CBCF56881AD650D30085EB16 /* JYKit */,
 				CB8C1DD91AD61A5D007A08B9 /* Animations */,
 				FE8F54611AD12848009FA217 /* QQList */,
@@ -412,6 +416,15 @@
 			children = (
 			);
 			name = UICollection;
+			sourceTree = "<group>";
+		};
+		CBAE63421AD7793900F0AD9F /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE63431AD77B5A00F0AD9F /* KKLog.h */,
+				CBAE63441AD77B5A00F0AD9F /* KKLog.m */,
+			);
+			name = Log;
 			sourceTree = "<group>";
 		};
 		CBCF56881AD650D30085EB16 /* JYKit */ = {
@@ -668,6 +681,7 @@
 				CB41DD681ACB91F10082712F /* JYWaterFallFlowLayout.m in Sources */,
 				CBCF568E1AD651250085EB16 /* JYKitViewController.m in Sources */,
 				CB6C19841ACA35D1002E8D76 /* JYTabBar1ViewController.m in Sources */,
+				CBAE63451AD77B5A00F0AD9F /* KKLog.m in Sources */,
 				CB41DD551ACB85400082712F /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

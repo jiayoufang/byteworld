@@ -29,6 +29,8 @@
 //各种控件
 #import "JYKit/JYKitViewController.h"
 
+//Log日志
+#import "KKLog.h"
 @interface AppDelegate ()
 
 @end
@@ -77,7 +79,20 @@
     UINavigationController *navKit = [[UINavigationController alloc]initWithRootViewController:kit];
     self.window.rootViewController = navKit;
     
+    //注册程序Crash后的处理函数
+    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
+    
+    [KKLog logIntial];
+    KKLogD(@"ASF");
+    
     return YES;
+}
+
+
+//程序Crash后的处理函数
+void uncaughtExceptionHandler(NSException *exception)
+{
+    [KKLog logCrash:exception];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
