@@ -21,6 +21,7 @@
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(10, 100, 200, 30);
+    [btn setTitle:@"按钮" forState:UIControlStateNormal];
     btn.backgroundColor = [UIColor blueColor];
     [self.view addSubview:btn];
     
