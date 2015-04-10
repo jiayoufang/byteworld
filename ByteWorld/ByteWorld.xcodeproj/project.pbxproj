@@ -56,6 +56,10 @@
 		CBAE63561AD79F3D00F0AD9F /* JYToolsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63551AD79F3D00F0AD9F /* JYToolsManager.m */; };
 		CBAE635A1AD7A47500F0AD9F /* UIImage+JYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63591AD7A47500F0AD9F /* UIImage+JYImage.m */; };
 		CBAE635E1AD7A54100F0AD9F /* NSString+JYString.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE635D1AD7A54100F0AD9F /* NSString+JYString.m */; };
+		CBAE63621AD7A90200F0AD9F /* JYBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63611AD7A90200F0AD9F /* JYBlurViewController.m */; };
+		CBAE63651AD7AF9A00F0AD9F /* UILabel+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63641AD7AF9A00F0AD9F /* UILabel+Additions.m */; };
+		CBAE63681AD7B22100F0AD9F /* UILabel+VerticalAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63671AD7B22100F0AD9F /* UILabel+VerticalAlignment.m */; };
+		CBAE636B1AD7B40800F0AD9F /* UILabel+AutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE636A1AD7B40800F0AD9F /* UILabel+AutomaticWriting.m */; };
 		CBCF568B1AD650F70085EB16 /* JYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF568A1AD650F70085EB16 /* JYTableViewController.m */; };
 		CBCF568E1AD651250085EB16 /* JYKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF568D1AD651250085EB16 /* JYKitViewController.m */; };
 		CBCF56931AD65F540085EB16 /* JYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF56921AD65F540085EB16 /* JYAlertViewController.m */; };
@@ -180,6 +184,14 @@
 		CBAE63591AD7A47500F0AD9F /* UIImage+JYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JYImage.m"; sourceTree = "<group>"; };
 		CBAE635C1AD7A54100F0AD9F /* NSString+JYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JYString.h"; sourceTree = "<group>"; };
 		CBAE635D1AD7A54100F0AD9F /* NSString+JYString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JYString.m"; sourceTree = "<group>"; };
+		CBAE63601AD7A90200F0AD9F /* JYBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBlurViewController.h; sourceTree = "<group>"; };
+		CBAE63611AD7A90200F0AD9F /* JYBlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBlurViewController.m; sourceTree = "<group>"; };
+		CBAE63631AD7AF9A00F0AD9F /* UILabel+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Additions.h"; sourceTree = "<group>"; };
+		CBAE63641AD7AF9A00F0AD9F /* UILabel+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Additions.m"; sourceTree = "<group>"; };
+		CBAE63661AD7B22100F0AD9F /* UILabel+VerticalAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+VerticalAlignment.h"; sourceTree = "<group>"; };
+		CBAE63671AD7B22100F0AD9F /* UILabel+VerticalAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+VerticalAlignment.m"; sourceTree = "<group>"; };
+		CBAE63691AD7B40800F0AD9F /* UILabel+AutomaticWriting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutomaticWriting.h"; sourceTree = "<group>"; };
+		CBAE636A1AD7B40800F0AD9F /* UILabel+AutomaticWriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutomaticWriting.m"; sourceTree = "<group>"; };
 		CBCF56891AD650F70085EB16 /* JYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTableViewController.h; sourceTree = "<group>"; };
 		CBCF568A1AD650F70085EB16 /* JYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTableViewController.m; sourceTree = "<group>"; };
 		CBCF568C1AD651250085EB16 /* JYKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYKitViewController.h; sourceTree = "<group>"; };
@@ -294,6 +306,7 @@
 		CB6C19511ACA3307002E8D76 /* ByteWorld */ = {
 			isa = PBXGroup;
 			children = (
+				CBAE635F1AD7A8B500F0AD9F /* Blur */,
 				CBAE635B1AD7A52700F0AD9F /* JYFoundation */,
 				CBAE63531AD79F0100F0AD9F /* Tools */,
 				CBAE634C1AD79E4D00F0AD9F /* Base */,
@@ -412,8 +425,14 @@
 		CBA844CE1AD764F700AFECFF /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
+				CBAE63631AD7AF9A00F0AD9F /* UILabel+Additions.h */,
+				CBAE63641AD7AF9A00F0AD9F /* UILabel+Additions.m */,
 				CBA844CF1AD7650500AFECFF /* JYLabelViewController.h */,
 				CBA844D01AD7650500AFECFF /* JYLabelViewController.m */,
+				CBAE63661AD7B22100F0AD9F /* UILabel+VerticalAlignment.h */,
+				CBAE63671AD7B22100F0AD9F /* UILabel+VerticalAlignment.m */,
+				CBAE63691AD7B40800F0AD9F /* UILabel+AutomaticWriting.h */,
+				CBAE636A1AD7B40800F0AD9F /* UILabel+AutomaticWriting.m */,
 				CBA844D21AD7651D00AFECFF /* JYLabel.h */,
 				CBA844D31AD7651D00AFECFF /* JYLabel.m */,
 			);
@@ -481,6 +500,15 @@
 				CBAE635D1AD7A54100F0AD9F /* NSString+JYString.m */,
 			);
 			name = JYFoundation;
+			sourceTree = "<group>";
+		};
+		CBAE635F1AD7A8B500F0AD9F /* Blur */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE63601AD7A90200F0AD9F /* JYBlurViewController.h */,
+				CBAE63611AD7A90200F0AD9F /* JYBlurViewController.m */,
+			);
+			name = Blur;
 			sourceTree = "<group>";
 		};
 		CBCF56881AD650D30085EB16 /* JYKit */ = {
@@ -689,6 +717,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE8F546E1AD128BF009FA217 /* JYFriendsModel.m in Sources */,
+				CBAE636B1AD7B40800F0AD9F /* UILabel+AutomaticWriting.m in Sources */,
+				CBAE63651AD7AF9A00F0AD9F /* UILabel+Additions.m in Sources */,
 				CBA844D41AD7651D00AFECFF /* JYLabel.m in Sources */,
 				CB41DD5D1ACB85400082712F /* UIImage+GIF.m in Sources */,
 				CB6C19901ACA6A55002E8D76 /* JYTabPushViewController.m in Sources */,
@@ -731,11 +761,13 @@
 				CBA844D81AD76BB200AFECFF /* JYButtonViewController.m in Sources */,
 				CB6C19871ACA35DA002E8D76 /* JYTabBar2ViewController.m in Sources */,
 				CBA844D11AD7650500AFECFF /* JYLabelViewController.m in Sources */,
+				CBAE63681AD7B22100F0AD9F /* UILabel+VerticalAlignment.m in Sources */,
 				CB41DD581ACB85400082712F /* SDWebImageDownloader.m in Sources */,
 				CB41DD601ACB85400082712F /* UIImageView+HighlightedWebCache.m in Sources */,
 				CB5F0FD11AD648C700E2D907 /* JYAnimation5ViewController.m in Sources */,
 				CB41DD571ACB85400082712F /* SDWebImageDecoder.m in Sources */,
 				CB41DD5F1ACB85400082712F /* UIImage+WebP.m in Sources */,
+				CBAE63621AD7A90200F0AD9F /* JYBlurViewController.m in Sources */,
 				CB41DD5A1ACB85400082712F /* SDWebImageManager.m in Sources */,
 				CBAE63521AD79E8800F0AD9F /* JYBaseView.m in Sources */,
 				CB6C198D1ACA4C6B002E8D76 /* JYTabBar4ViewController.m in Sources */,

@@ -31,6 +31,10 @@
 
 //Log日志
 #import "KKLog.h"
+
+//磨砂效果
+#import "JYBlurViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -79,11 +83,14 @@
     UINavigationController *navKit = [[UINavigationController alloc]initWithRootViewController:kit];
     self.window.rootViewController = navKit;
     
-    //注册程序Crash后的处理函数
+//    //注册程序Crash后的处理函数
     NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
+//
+//    [KKLog logIntial];
     
-    [KKLog logIntial];
-    KKLogD(@"ASF");
+    //磨砂效果
+//    JYBlurViewController *blur = [[JYBlurViewController alloc]init];
+//    self.window.rootViewController = blur;
     
     return YES;
 }

@@ -8,6 +8,9 @@
 
 #import "JYLabelViewController.h"
 #import "JYLabel.h"
+#import "UILabel+Additions.h"
+#import "UILabel+VerticalAlignment.h"
+#import "UILabel+AutomaticWriting.h"
 
 @interface JYLabelViewController ()
 
@@ -20,13 +23,19 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    JYLabel *label = [[JYLabel alloc]initWithFrame:CGRectMake(10, 100, 300, 30)];
-    label.text = @"添加删除线的Label";
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(10, 100, 300, 300)];
+//    label.text = @"Label自适应Label自适应Label自适应Label自适应Label自适应Label自适应Label自适应Label自适应Label自适应Label自适应自适应自适应自适应自适应自适应Label自适应Label自适应Label自适应Label自适应Label自适应";
+//    [label adjustFontWithMaxSize:CGSizeMake(300, MAXFLOAT)];
     label.textColor = [UIColor blueColor];
-    label.textAlignment = NSTextAlignmentCenter;
+    label.textAlignment = NSTextAlignmentLeft;
     label.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:label];
     
+    [label setText:@"适应Label自适应Label自适应自适应自适应自适应自适应自适应Label自适应Label自适应Label自适应Label自适应Label自适应" automaticWritingAnimationWithDuration:0.13f blinkingMode:UILabelAWBlinkingModeUntilFinish blinkingCharacter:2 completion:^{
+        
+    }];
+//    [label setText:@"啊；地方哦啊是否能拉丝" automaticWritingAnimationWithDuration:0.13f];
+    NSLog(@"frame = %@",NSStringFromCGRect(label.frame));
 }
 
 - (void)didReceiveMemoryWarning {
