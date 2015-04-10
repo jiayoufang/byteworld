@@ -15,7 +15,7 @@
 {
     const char *cStr = [self UTF8String];
     unsigned char result[16];
-    CC_MD5(cStr, strlen(cStr), result);
+    CC_MD5(cStr, (CC_LONG)strlen(cStr), result);
     /* This is the md5 call  需要引入头文件#import <CommonCrypto/CommonDigest.h>*/
     return [NSString stringWithFormat:
             @"%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x",
@@ -24,6 +24,7 @@
             result[8], result[9], result[10], result[11],
             result[12], result[13], result[14], result[15]
             ];
+    ///Implicit conversion loses integer precision: 'unsigned long' to 'CC_LONG' (aka 'unsigned int')
 }
 //去空格
 -(NSString *)trim
