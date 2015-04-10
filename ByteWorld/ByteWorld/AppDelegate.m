@@ -48,8 +48,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    JYTabbarViewController *tabBarController = [[JYTabbarViewController alloc]init];
-    self.window.rootViewController = tabBarController;
+//    JYTabbarViewController *tabBarController = [[JYTabbarViewController alloc]init];
+//    self.window.rootViewController = tabBarController;
 
     //瀑布流
 //    JYWaterFallViewController *waterFall = [[JYWaterFallViewController alloc]init];
@@ -74,9 +74,9 @@
 //    self.window.rootViewController = navList;
     
     //动画效果
-//    JYAnimationViewController *animation = [[JYAnimationViewController alloc]init];
-//    UINavigationController *navAnimation = [[UINavigationController alloc]initWithRootViewController:animation];
-//    self.window.rootViewController = navAnimation;
+    JYAnimationViewController *animation = [[JYAnimationViewController alloc]init];
+    UINavigationController *navAnimation = [[UINavigationController alloc]initWithRootViewController:animation];
+    self.window.rootViewController = navAnimation;
     
     //各种控件
 //    JYKitViewController *kit = [[JYKitViewController alloc]init];

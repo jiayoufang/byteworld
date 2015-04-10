@@ -22,7 +22,12 @@
 {
     if (!_textField) {
         _textField = [[UITextField alloc]initWithFrame:CGRectMake(100, 100, 200, 30)];
-        _textField.borderStyle = UITextBorderStyleRoundedRect;
+//        _textField.borderStyle = UITextBorderStyleRoundedRect;
+        _textField.clipsToBounds = YES;
+        _textField.layer.masksToBounds = YES;
+        _textField.layer.borderWidth = 1.0f;
+        _textField.layer.cornerRadius = 5.0f;
+        _textField.layer.borderColor = [UIColor redColor].CGColor;
     }
     return _textField;
 }

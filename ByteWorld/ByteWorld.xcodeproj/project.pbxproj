@@ -61,6 +61,8 @@
 		CBAE63681AD7B22100F0AD9F /* UILabel+VerticalAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63671AD7B22100F0AD9F /* UILabel+VerticalAlignment.m */; };
 		CBAE636B1AD7B40800F0AD9F /* UILabel+AutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE636A1AD7B40800F0AD9F /* UILabel+AutomaticWriting.m */; };
 		CBAE636E1AD7C9DA00F0AD9F /* JSBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE636D1AD7C9DA00F0AD9F /* JSBadgeView.m */; };
+		CBAE63711AD7D3FC00F0AD9F /* JYAnimation7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63701AD7D3FC00F0AD9F /* JYAnimation7ViewController.m */; };
+		CBAE63741AD7D47700F0AD9F /* UIView+JYTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63731AD7D47700F0AD9F /* UIView+JYTransitionAnimation.m */; };
 		CBCF568B1AD650F70085EB16 /* JYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF568A1AD650F70085EB16 /* JYTableViewController.m */; };
 		CBCF568E1AD651250085EB16 /* JYKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF568D1AD651250085EB16 /* JYKitViewController.m */; };
 		CBCF56931AD65F540085EB16 /* JYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF56921AD65F540085EB16 /* JYAlertViewController.m */; };
@@ -195,6 +197,10 @@
 		CBAE636A1AD7B40800F0AD9F /* UILabel+AutomaticWriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutomaticWriting.m"; sourceTree = "<group>"; };
 		CBAE636C1AD7C9DA00F0AD9F /* JSBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBadgeView.h; sourceTree = "<group>"; };
 		CBAE636D1AD7C9DA00F0AD9F /* JSBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBadgeView.m; sourceTree = "<group>"; };
+		CBAE636F1AD7D3FC00F0AD9F /* JYAnimation7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAnimation7ViewController.h; sourceTree = "<group>"; };
+		CBAE63701AD7D3FC00F0AD9F /* JYAnimation7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAnimation7ViewController.m; sourceTree = "<group>"; };
+		CBAE63721AD7D47700F0AD9F /* UIView+JYTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JYTransitionAnimation.h"; sourceTree = "<group>"; };
+		CBAE63731AD7D47700F0AD9F /* UIView+JYTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JYTransitionAnimation.m"; sourceTree = "<group>"; };
 		CBCF56891AD650F70085EB16 /* JYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTableViewController.h; sourceTree = "<group>"; };
 		CBCF568A1AD650F70085EB16 /* JYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTableViewController.m; sourceTree = "<group>"; };
 		CBCF568C1AD651250085EB16 /* JYKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYKitViewController.h; sourceTree = "<group>"; };
@@ -414,6 +420,10 @@
 				CB5F0FD01AD648C700E2D907 /* JYAnimation5ViewController.m */,
 				CBCF56941AD65FE10085EB16 /* JYAnimation6ViewController.h */,
 				CBCF56951AD65FE10085EB16 /* JYAnimation6ViewController.m */,
+				CBAE636F1AD7D3FC00F0AD9F /* JYAnimation7ViewController.h */,
+				CBAE63701AD7D3FC00F0AD9F /* JYAnimation7ViewController.m */,
+				CBAE63721AD7D47700F0AD9F /* UIView+JYTransitionAnimation.h */,
+				CBAE63731AD7D47700F0AD9F /* UIView+JYTransitionAnimation.m */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -732,6 +742,7 @@
 				CBAE635A1AD7A47500F0AD9F /* UIImage+JYImage.m in Sources */,
 				CBAE63561AD79F3D00F0AD9F /* JYToolsManager.m in Sources */,
 				CBAE635E1AD7A54100F0AD9F /* NSString+JYString.m in Sources */,
+				CBAE63741AD7D47700F0AD9F /* UIView+JYTransitionAnimation.m in Sources */,
 				CB6C195B1ACA3307002E8D76 /* ViewController.m in Sources */,
 				FE8F54581AD10F7F009FA217 /* JYLockView.m in Sources */,
 				CB5F0FCE1AD644A100E2D907 /* JYAnimation4ViewController.m in Sources */,
@@ -758,6 +769,7 @@
 				CBCF56961AD65FE10085EB16 /* JYAnimation6ViewController.m in Sources */,
 				CB41DD531ACB85400082712F /* MKAnnotationView+WebCache.m in Sources */,
 				CB41DD561ACB85400082712F /* SDWebImageCompat.m in Sources */,
+				CBAE63711AD7D3FC00F0AD9F /* JYAnimation7ViewController.m in Sources */,
 				CB6C19551ACA3307002E8D76 /* main.m in Sources */,
 				CB41DD5E1ACB85400082712F /* UIImage+MultiFormat.m in Sources */,
 				CB41DD611ACB85400082712F /* UIImageView+WebCache.m in Sources */,
