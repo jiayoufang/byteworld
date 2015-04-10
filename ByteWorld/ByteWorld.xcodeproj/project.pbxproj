@@ -51,6 +51,11 @@
 		CBA844D41AD7651D00AFECFF /* JYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA844D31AD7651D00AFECFF /* JYLabel.m */; };
 		CBA844D81AD76BB200AFECFF /* JYButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA844D71AD76BB200AFECFF /* JYButtonViewController.m */; };
 		CBAE63451AD77B5A00F0AD9F /* KKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63441AD77B5A00F0AD9F /* KKLog.m */; };
+		CBAE634F1AD79E7800F0AD9F /* JYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE634E1AD79E7800F0AD9F /* JYBaseViewController.m */; };
+		CBAE63521AD79E8800F0AD9F /* JYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63511AD79E8800F0AD9F /* JYBaseView.m */; };
+		CBAE63561AD79F3D00F0AD9F /* JYToolsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63551AD79F3D00F0AD9F /* JYToolsManager.m */; };
+		CBAE635A1AD7A47500F0AD9F /* UIImage+JYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE63591AD7A47500F0AD9F /* UIImage+JYImage.m */; };
+		CBAE635E1AD7A54100F0AD9F /* NSString+JYString.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE635D1AD7A54100F0AD9F /* NSString+JYString.m */; };
 		CBCF568B1AD650F70085EB16 /* JYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF568A1AD650F70085EB16 /* JYTableViewController.m */; };
 		CBCF568E1AD651250085EB16 /* JYKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF568D1AD651250085EB16 /* JYKitViewController.m */; };
 		CBCF56931AD65F540085EB16 /* JYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF56921AD65F540085EB16 /* JYAlertViewController.m */; };
@@ -165,6 +170,16 @@
 		CBA844D71AD76BB200AFECFF /* JYButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYButtonViewController.m; sourceTree = "<group>"; };
 		CBAE63431AD77B5A00F0AD9F /* KKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLog.h; sourceTree = "<group>"; };
 		CBAE63441AD77B5A00F0AD9F /* KKLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLog.m; sourceTree = "<group>"; };
+		CBAE634D1AD79E7800F0AD9F /* JYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBaseViewController.h; sourceTree = "<group>"; };
+		CBAE634E1AD79E7800F0AD9F /* JYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBaseViewController.m; sourceTree = "<group>"; };
+		CBAE63501AD79E8800F0AD9F /* JYBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBaseView.h; sourceTree = "<group>"; };
+		CBAE63511AD79E8800F0AD9F /* JYBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBaseView.m; sourceTree = "<group>"; };
+		CBAE63541AD79F3D00F0AD9F /* JYToolsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYToolsManager.h; sourceTree = "<group>"; };
+		CBAE63551AD79F3D00F0AD9F /* JYToolsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYToolsManager.m; sourceTree = "<group>"; };
+		CBAE63581AD7A47500F0AD9F /* UIImage+JYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JYImage.h"; sourceTree = "<group>"; };
+		CBAE63591AD7A47500F0AD9F /* UIImage+JYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JYImage.m"; sourceTree = "<group>"; };
+		CBAE635C1AD7A54100F0AD9F /* NSString+JYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JYString.h"; sourceTree = "<group>"; };
+		CBAE635D1AD7A54100F0AD9F /* NSString+JYString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JYString.m"; sourceTree = "<group>"; };
 		CBCF56891AD650F70085EB16 /* JYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTableViewController.h; sourceTree = "<group>"; };
 		CBCF568A1AD650F70085EB16 /* JYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTableViewController.m; sourceTree = "<group>"; };
 		CBCF568C1AD651250085EB16 /* JYKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYKitViewController.h; sourceTree = "<group>"; };
@@ -279,6 +294,9 @@
 		CB6C19511ACA3307002E8D76 /* ByteWorld */ = {
 			isa = PBXGroup;
 			children = (
+				CBAE635B1AD7A52700F0AD9F /* JYFoundation */,
+				CBAE63531AD79F0100F0AD9F /* Tools */,
+				CBAE634C1AD79E4D00F0AD9F /* Base */,
 				CBAE63421AD7793900F0AD9F /* Log */,
 				CBCF56881AD650D30085EB16 /* JYKit */,
 				CB8C1DD91AD61A5D007A08B9 /* Animations */,
@@ -427,9 +445,48 @@
 			name = Log;
 			sourceTree = "<group>";
 		};
+		CBAE634C1AD79E4D00F0AD9F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE634D1AD79E7800F0AD9F /* JYBaseViewController.h */,
+				CBAE634E1AD79E7800F0AD9F /* JYBaseViewController.m */,
+				CBAE63501AD79E8800F0AD9F /* JYBaseView.h */,
+				CBAE63511AD79E8800F0AD9F /* JYBaseView.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		CBAE63531AD79F0100F0AD9F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE63541AD79F3D00F0AD9F /* JYToolsManager.h */,
+				CBAE63551AD79F3D00F0AD9F /* JYToolsManager.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		CBAE63571AD7A42800F0AD9F /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE63581AD7A47500F0AD9F /* UIImage+JYImage.h */,
+				CBAE63591AD7A47500F0AD9F /* UIImage+JYImage.m */,
+			);
+			name = UIImage;
+			sourceTree = "<group>";
+		};
+		CBAE635B1AD7A52700F0AD9F /* JYFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE635C1AD7A54100F0AD9F /* NSString+JYString.h */,
+				CBAE635D1AD7A54100F0AD9F /* NSString+JYString.m */,
+			);
+			name = JYFoundation;
+			sourceTree = "<group>";
+		};
 		CBCF56881AD650D30085EB16 /* JYKit */ = {
 			isa = PBXGroup;
 			children = (
+				CBAE63571AD7A42800F0AD9F /* UIImage */,
 				CBA844D91AD76BE200AFECFF /* UICollection */,
 				CBA844D51AD76BA500AFECFF /* UIButton */,
 				CBA844CE1AD764F700AFECFF /* UILabel */,
@@ -637,6 +694,9 @@
 				CB6C19901ACA6A55002E8D76 /* JYTabPushViewController.m in Sources */,
 				CB41DD5B1ACB85400082712F /* SDWebImagePrefetcher.m in Sources */,
 				FE8F54701AD128BF009FA217 /* JYHeaderView.m in Sources */,
+				CBAE635A1AD7A47500F0AD9F /* UIImage+JYImage.m in Sources */,
+				CBAE63561AD79F3D00F0AD9F /* JYToolsManager.m in Sources */,
+				CBAE635E1AD7A54100F0AD9F /* NSString+JYString.m in Sources */,
 				CB6C195B1ACA3307002E8D76 /* ViewController.m in Sources */,
 				FE8F54581AD10F7F009FA217 /* JYLockView.m in Sources */,
 				CB5F0FCE1AD644A100E2D907 /* JYAnimation4ViewController.m in Sources */,
@@ -648,6 +708,7 @@
 				CB8C1DDC1AD61AA3007A08B9 /* JYAnimationViewController.m in Sources */,
 				FE8F54551AD10E44009FA217 /* JYLockViewController.m in Sources */,
 				CB41DD5C1ACB85400082712F /* UIButton+WebCache.m in Sources */,
+				CBAE634F1AD79E7800F0AD9F /* JYBaseViewController.m in Sources */,
 				CBA844CD1AD75CA700AFECFF /* JYWebViewController.m in Sources */,
 				CB8C1DE21AD6221E007A08B9 /* JYAnimation1ViewController.m in Sources */,
 				CBCF568B1AD650F70085EB16 /* JYTableViewController.m in Sources */,
@@ -676,6 +737,7 @@
 				CB41DD571ACB85400082712F /* SDWebImageDecoder.m in Sources */,
 				CB41DD5F1ACB85400082712F /* UIImage+WebP.m in Sources */,
 				CB41DD5A1ACB85400082712F /* SDWebImageManager.m in Sources */,
+				CBAE63521AD79E8800F0AD9F /* JYBaseView.m in Sources */,
 				CB6C198D1ACA4C6B002E8D76 /* JYTabBar4ViewController.m in Sources */,
 				FE8F54601AD12616009FA217 /* JYClockSlipViewController.m in Sources */,
 				CB41DD681ACB91F10082712F /* JYWaterFallFlowLayout.m in Sources */,
