@@ -67,6 +67,15 @@
 		CBCF568E1AD651250085EB16 /* JYKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF568D1AD651250085EB16 /* JYKitViewController.m */; };
 		CBCF56931AD65F540085EB16 /* JYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF56921AD65F540085EB16 /* JYAlertViewController.m */; };
 		CBCF56961AD65FE10085EB16 /* JYAnimation6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF56951AD65FE10085EB16 /* JYAnimation6ViewController.m */; };
+		FE50939E1AD9E47E003E5635 /* JYHoledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE50939D1AD9E47E003E5635 /* JYHoledViewController.m */; };
+		FE5093A11AD9E4F0003E5635 /* JMHoledView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5093A01AD9E4F0003E5635 /* JMHoledView.m */; };
+		FE5093A51AD9EC45003E5635 /* JYIntrolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5093A41AD9EC45003E5635 /* JYIntrolViewController.m */; };
+		FE5093A81AD9EC8D003E5635 /* JYIntrolView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5093A71AD9EC8D003E5635 /* JYIntrolView.m */; };
+		FE5093AC1AD9F220003E5635 /* JYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5093AB1AD9F220003E5635 /* JYTextView.m */; };
+		FE5093AF1AD9F29C003E5635 /* JYTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5093AE1AD9F29C003E5635 /* JYTextViewController.m */; };
+		FE5093B31AD9F326003E5635 /* JYSystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5093B21AD9F326003E5635 /* JYSystemViewController.m */; };
+		FE5093B61AD9F656003E5635 /* UIImage+JYImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5093B51AD9F656003E5635 /* UIImage+JYImageEffects.m */; };
+		FE5093B91AD9F6E9003E5635 /* JYImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5093B81AD9F6E9003E5635 /* JYImageViewController.m */; };
 		FE8F54511AD0DE4D009FA217 /* JYPinGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54501AD0DE4D009FA217 /* JYPinGestureViewController.m */; };
 		FE8F54551AD10E44009FA217 /* JYLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54541AD10E44009FA217 /* JYLockViewController.m */; };
 		FE8F54581AD10F7F009FA217 /* JYLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54571AD10F7F009FA217 /* JYLockView.m */; };
@@ -209,6 +218,24 @@
 		CBCF56921AD65F540085EB16 /* JYAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAlertViewController.m; sourceTree = "<group>"; };
 		CBCF56941AD65FE10085EB16 /* JYAnimation6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAnimation6ViewController.h; sourceTree = "<group>"; };
 		CBCF56951AD65FE10085EB16 /* JYAnimation6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAnimation6ViewController.m; sourceTree = "<group>"; };
+		FE50939C1AD9E47E003E5635 /* JYHoledViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYHoledViewController.h; sourceTree = "<group>"; };
+		FE50939D1AD9E47E003E5635 /* JYHoledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYHoledViewController.m; sourceTree = "<group>"; };
+		FE50939F1AD9E4F0003E5635 /* JMHoledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMHoledView.h; sourceTree = "<group>"; };
+		FE5093A01AD9E4F0003E5635 /* JMHoledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMHoledView.m; sourceTree = "<group>"; };
+		FE5093A31AD9EC45003E5635 /* JYIntrolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYIntrolViewController.h; sourceTree = "<group>"; };
+		FE5093A41AD9EC45003E5635 /* JYIntrolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYIntrolViewController.m; sourceTree = "<group>"; };
+		FE5093A61AD9EC8D003E5635 /* JYIntrolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYIntrolView.h; sourceTree = "<group>"; };
+		FE5093A71AD9EC8D003E5635 /* JYIntrolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYIntrolView.m; sourceTree = "<group>"; };
+		FE5093AA1AD9F220003E5635 /* JYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTextView.h; sourceTree = "<group>"; };
+		FE5093AB1AD9F220003E5635 /* JYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTextView.m; sourceTree = "<group>"; };
+		FE5093AD1AD9F29C003E5635 /* JYTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTextViewController.h; sourceTree = "<group>"; };
+		FE5093AE1AD9F29C003E5635 /* JYTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTextViewController.m; sourceTree = "<group>"; };
+		FE5093B11AD9F326003E5635 /* JYSystemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYSystemViewController.h; sourceTree = "<group>"; };
+		FE5093B21AD9F326003E5635 /* JYSystemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYSystemViewController.m; sourceTree = "<group>"; };
+		FE5093B41AD9F656003E5635 /* UIImage+JYImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JYImageEffects.h"; sourceTree = "<group>"; };
+		FE5093B51AD9F656003E5635 /* UIImage+JYImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JYImageEffects.m"; sourceTree = "<group>"; };
+		FE5093B71AD9F6E9003E5635 /* JYImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYImageViewController.h; sourceTree = "<group>"; };
+		FE5093B81AD9F6E9003E5635 /* JYImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYImageViewController.m; sourceTree = "<group>"; };
 		FE8F544F1AD0DE4D009FA217 /* JYPinGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPinGestureViewController.h; sourceTree = "<group>"; };
 		FE8F54501AD0DE4D009FA217 /* JYPinGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPinGestureViewController.m; sourceTree = "<group>"; };
 		FE8F54531AD10E44009FA217 /* JYLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYLockViewController.h; sourceTree = "<group>"; };
@@ -315,6 +342,9 @@
 		CB6C19511ACA3307002E8D76 /* ByteWorld */ = {
 			isa = PBXGroup;
 			children = (
+				FE5093B01AD9F314003E5635 /* System */,
+				FE5093A21AD9EC18003E5635 /* IntrolView */,
+				FE50939B1AD9E45F003E5635 /* HoledView */,
 				CBAE635F1AD7A8B500F0AD9F /* Blur */,
 				CBAE635B1AD7A52700F0AD9F /* JYFoundation */,
 				CBAE63531AD79F0100F0AD9F /* Tools */,
@@ -504,6 +534,10 @@
 			children = (
 				CBAE63581AD7A47500F0AD9F /* UIImage+JYImage.h */,
 				CBAE63591AD7A47500F0AD9F /* UIImage+JYImage.m */,
+				FE5093B41AD9F656003E5635 /* UIImage+JYImageEffects.h */,
+				FE5093B51AD9F656003E5635 /* UIImage+JYImageEffects.m */,
+				FE5093B71AD9F6E9003E5635 /* JYImageViewController.h */,
+				FE5093B81AD9F6E9003E5635 /* JYImageViewController.m */,
 			);
 			name = UIImage;
 			sourceTree = "<group>";
@@ -529,6 +563,7 @@
 		CBCF56881AD650D30085EB16 /* JYKit */ = {
 			isa = PBXGroup;
 			children = (
+				FE5093A91AD9F211003E5635 /* UITextView */,
 				CBAE63571AD7A42800F0AD9F /* UIImage */,
 				CBA844D91AD76BE200AFECFF /* UICollection */,
 				CBA844D51AD76BA500AFECFF /* UIButton */,
@@ -558,6 +593,48 @@
 				CBCF56921AD65F540085EB16 /* JYAlertViewController.m */,
 			);
 			name = UIAlertView;
+			sourceTree = "<group>";
+		};
+		FE50939B1AD9E45F003E5635 /* HoledView */ = {
+			isa = PBXGroup;
+			children = (
+				FE50939C1AD9E47E003E5635 /* JYHoledViewController.h */,
+				FE50939D1AD9E47E003E5635 /* JYHoledViewController.m */,
+				FE50939F1AD9E4F0003E5635 /* JMHoledView.h */,
+				FE5093A01AD9E4F0003E5635 /* JMHoledView.m */,
+			);
+			name = HoledView;
+			sourceTree = "<group>";
+		};
+		FE5093A21AD9EC18003E5635 /* IntrolView */ = {
+			isa = PBXGroup;
+			children = (
+				FE5093A31AD9EC45003E5635 /* JYIntrolViewController.h */,
+				FE5093A41AD9EC45003E5635 /* JYIntrolViewController.m */,
+				FE5093A61AD9EC8D003E5635 /* JYIntrolView.h */,
+				FE5093A71AD9EC8D003E5635 /* JYIntrolView.m */,
+			);
+			name = IntrolView;
+			sourceTree = "<group>";
+		};
+		FE5093A91AD9F211003E5635 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				FE5093AA1AD9F220003E5635 /* JYTextView.h */,
+				FE5093AB1AD9F220003E5635 /* JYTextView.m */,
+				FE5093AD1AD9F29C003E5635 /* JYTextViewController.h */,
+				FE5093AE1AD9F29C003E5635 /* JYTextViewController.m */,
+			);
+			name = UITextView;
+			sourceTree = "<group>";
+		};
+		FE5093B01AD9F314003E5635 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				FE5093B11AD9F326003E5635 /* JYSystemViewController.h */,
+				FE5093B21AD9F326003E5635 /* JYSystemViewController.m */,
+			);
+			name = System;
 			sourceTree = "<group>";
 		};
 		FE8F544E1AD0DE3A009FA217 /* JYGesture */ = {
@@ -740,19 +817,24 @@
 				CB41DD5B1ACB85400082712F /* SDWebImagePrefetcher.m in Sources */,
 				FE8F54701AD128BF009FA217 /* JYHeaderView.m in Sources */,
 				CBAE635A1AD7A47500F0AD9F /* UIImage+JYImage.m in Sources */,
+				FE5093AC1AD9F220003E5635 /* JYTextView.m in Sources */,
 				CBAE63561AD79F3D00F0AD9F /* JYToolsManager.m in Sources */,
 				CBAE635E1AD7A54100F0AD9F /* NSString+JYString.m in Sources */,
+				FE5093A81AD9EC8D003E5635 /* JYIntrolView.m in Sources */,
+				FE5093B91AD9F6E9003E5635 /* JYImageViewController.m in Sources */,
 				CBAE63741AD7D47700F0AD9F /* UIView+JYTransitionAnimation.m in Sources */,
 				CB6C195B1ACA3307002E8D76 /* ViewController.m in Sources */,
 				FE8F54581AD10F7F009FA217 /* JYLockView.m in Sources */,
 				CB5F0FCE1AD644A100E2D907 /* JYAnimation4ViewController.m in Sources */,
 				CB6C197E1ACA3566002E8D76 /* JYTabbarViewController.m in Sources */,
 				CB41DD541ACB85400082712F /* NSData+ImageContentType.m in Sources */,
+				FE50939E1AD9E47E003E5635 /* JYHoledViewController.m in Sources */,
 				CB6C19581ACA3307002E8D76 /* AppDelegate.m in Sources */,
 				CB6C19951ACA81DE002E8D76 /* JYWaterFallViewController.m in Sources */,
 				CBCF56931AD65F540085EB16 /* JYAlertViewController.m in Sources */,
 				CB8C1DDC1AD61AA3007A08B9 /* JYAnimationViewController.m in Sources */,
 				FE8F54551AD10E44009FA217 /* JYLockViewController.m in Sources */,
+				FE5093B31AD9F326003E5635 /* JYSystemViewController.m in Sources */,
 				CB41DD5C1ACB85400082712F /* UIButton+WebCache.m in Sources */,
 				CBAE634F1AD79E7800F0AD9F /* JYBaseViewController.m in Sources */,
 				CBA844CD1AD75CA700AFECFF /* JYWebViewController.m in Sources */,
@@ -792,7 +874,11 @@
 				FE8F54601AD12616009FA217 /* JYClockSlipViewController.m in Sources */,
 				CB41DD681ACB91F10082712F /* JYWaterFallFlowLayout.m in Sources */,
 				CBCF568E1AD651250085EB16 /* JYKitViewController.m in Sources */,
+				FE5093AF1AD9F29C003E5635 /* JYTextViewController.m in Sources */,
+				FE5093A11AD9E4F0003E5635 /* JMHoledView.m in Sources */,
 				CB6C19841ACA35D1002E8D76 /* JYTabBar1ViewController.m in Sources */,
+				FE5093A51AD9EC45003E5635 /* JYIntrolViewController.m in Sources */,
+				FE5093B61AD9F656003E5635 /* UIImage+JYImageEffects.m in Sources */,
 				CBAE63451AD77B5A00F0AD9F /* KKLog.m in Sources */,
 				CB41DD551ACB85400082712F /* SDImageCache.m in Sources */,
 			);

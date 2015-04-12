@@ -35,6 +35,15 @@
 //磨砂效果
 #import "JYBlurViewController.h"
 
+//添加引导提示
+#import "JYHoledViewController.h"
+
+//添加启动引导页
+#import "JYIntrolViewController.h"
+
+//系统级别
+#import "JYSystemViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -74,9 +83,9 @@
 //    self.window.rootViewController = navList;
     
     //动画效果
-    JYAnimationViewController *animation = [[JYAnimationViewController alloc]init];
-    UINavigationController *navAnimation = [[UINavigationController alloc]initWithRootViewController:animation];
-    self.window.rootViewController = navAnimation;
+//    JYAnimationViewController *animation = [[JYAnimationViewController alloc]init];
+//    UINavigationController *navAnimation = [[UINavigationController alloc]initWithRootViewController:animation];
+//    self.window.rootViewController = navAnimation;
     
     //各种控件
 //    JYKitViewController *kit = [[JYKitViewController alloc]init];
@@ -91,6 +100,14 @@
     //磨砂效果
 //    JYBlurViewController *blur = [[JYBlurViewController alloc]init];
 //    self.window.rootViewController = blur;
+    
+    //添加引导帮助提示
+//    JYHoledViewController *holed = [[JYHoledViewController alloc]init];
+//    self.window.rootViewController = holed;
+    
+    //添加启动引导页面
+    JYIntrolViewController *introl = [[JYIntrolViewController alloc]init];
+    self.window.rootViewController = introl;
     
     return YES;
 }

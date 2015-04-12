@@ -32,7 +32,7 @@
 -(NSArray*)dataArray
 {
     if (!_dataArray) {
-        _dataArray = @[@"JYTableViewController",@"JYAlertViewController",@"JYWebViewController",@"JYLabelViewController",@"JYButtonViewController"];
+        _dataArray = @[@"JYTableViewController",@"JYAlertViewController",@"JYWebViewController",@"JYLabelViewController",@"JYButtonViewController",];
     }
     return _dataArray;
 }
@@ -67,7 +67,7 @@
     return cell;
 }
 
-#pragma mark-UITableViewDelegate
+#pragma mark-UITable ViewDelegate
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
