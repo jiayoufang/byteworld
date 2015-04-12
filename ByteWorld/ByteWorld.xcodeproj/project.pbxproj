@@ -76,6 +76,7 @@
 		FE5093B31AD9F326003E5635 /* JYSystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5093B21AD9F326003E5635 /* JYSystemViewController.m */; };
 		FE5093B61AD9F656003E5635 /* UIImage+JYImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5093B51AD9F656003E5635 /* UIImage+JYImageEffects.m */; };
 		FE5093B91AD9F6E9003E5635 /* JYImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5093B81AD9F6E9003E5635 /* JYImageViewController.m */; };
+		FE5094261ADABEA5003E5635 /* UINavigationBar+JYBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5094251ADABEA5003E5635 /* UINavigationBar+JYBackgroundColor.m */; };
 		FE8F54511AD0DE4D009FA217 /* JYPinGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54501AD0DE4D009FA217 /* JYPinGestureViewController.m */; };
 		FE8F54551AD10E44009FA217 /* JYLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54541AD10E44009FA217 /* JYLockViewController.m */; };
 		FE8F54581AD10F7F009FA217 /* JYLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F54571AD10F7F009FA217 /* JYLockView.m */; };
@@ -236,6 +237,8 @@
 		FE5093B51AD9F656003E5635 /* UIImage+JYImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JYImageEffects.m"; sourceTree = "<group>"; };
 		FE5093B71AD9F6E9003E5635 /* JYImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYImageViewController.h; sourceTree = "<group>"; };
 		FE5093B81AD9F6E9003E5635 /* JYImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYImageViewController.m; sourceTree = "<group>"; };
+		FE5094241ADABEA5003E5635 /* UINavigationBar+JYBackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+JYBackgroundColor.h"; sourceTree = "<group>"; };
+		FE5094251ADABEA5003E5635 /* UINavigationBar+JYBackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+JYBackgroundColor.m"; sourceTree = "<group>"; };
 		FE8F544F1AD0DE4D009FA217 /* JYPinGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPinGestureViewController.h; sourceTree = "<group>"; };
 		FE8F54501AD0DE4D009FA217 /* JYPinGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPinGestureViewController.m; sourceTree = "<group>"; };
 		FE8F54531AD10E44009FA217 /* JYLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYLockViewController.h; sourceTree = "<group>"; };
@@ -580,6 +583,8 @@
 		CBCF568F1AD651330085EB16 /* UITableView */ = {
 			isa = PBXGroup;
 			children = (
+				FE5094241ADABEA5003E5635 /* UINavigationBar+JYBackgroundColor.h */,
+				FE5094251ADABEA5003E5635 /* UINavigationBar+JYBackgroundColor.m */,
 				CBCF56891AD650F70085EB16 /* JYTableViewController.h */,
 				CBCF568A1AD650F70085EB16 /* JYTableViewController.m */,
 			);
@@ -840,6 +845,7 @@
 				CBA844CD1AD75CA700AFECFF /* JYWebViewController.m in Sources */,
 				CB8C1DE21AD6221E007A08B9 /* JYAnimation1ViewController.m in Sources */,
 				CBCF568B1AD650F70085EB16 /* JYTableViewController.m in Sources */,
+				FE5094261ADABEA5003E5635 /* UINavigationBar+JYBackgroundColor.m in Sources */,
 				FE8F546F1AD128BF009FA217 /* JYGroupModel.m in Sources */,
 				CB41DD591ACB85400082712F /* SDWebImageDownloaderOperation.m in Sources */,
 				FE8F54511AD0DE4D009FA217 /* JYPinGestureViewController.m in Sources */,

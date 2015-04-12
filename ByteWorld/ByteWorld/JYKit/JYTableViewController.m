@@ -7,16 +7,18 @@
 //
 
 #import "JYTableViewController.h"
+#import "UINavigationBar+JYBackgroundColor.h"
 
 CGFloat const ImgWidth = 828;
 CGFloat const ImgHeight = 589;
 #define ScaleImageViewHeight ([UIScreen mainScreen].bounds.size.width)*ImgHeight/ImgWidth
 
+#define NAVBAR_CHANGE_POINT -70
 
 @interface JYTableViewController ()<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate>
 
 @property(nonatomic,strong) UITableView *tableView;
-@property(nonatomic,strong) NSArray *dataArray;
+@property(nonatomic,strong) NSMutableArray *dataArray;
 
 @property(nonatomic,strong) UIImageView *scaleImageView;
 @property(nonatomic,strong) UIImageView *noScaleImage;
@@ -41,7 +43,7 @@ CGFloat const ImgHeight = 589;
 -(NSArray*)dataArray
 {
     if (!_dataArray) {
-        _dataArray = @[@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView"];
+        _dataArray = [[NSMutableArray alloc]initWithArray: @[@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView"]];
     }
     return _dataArray;
 }
@@ -105,6 +107,41 @@ CGFloat const ImgHeight = 589;
         frame.origin.y = y;
         self.scaleImageView.frame = frame;
     }
+    
+    //第一种方式
+//    UIColor * color = [UIColor colorWithRed:0/255.0 green:175/255.0 blue:240/255.0 alpha:1];
+//    CGFloat offsetY = scrollView.contentOffset.y;
+//    if (offsetY > NAVBAR_CHANGE_POINT) {
+//        CGFloat alpha = 1 - ((NAVBAR_CHANGE_POINT + 64 - offsetY) / 64);
+//        
+//        [self.navigationController.navigationBar jy_setBackgroundColor:[color colorWithAlphaComponent:alpha]];
+//    } else {
+//        [self.navigationController.navigationBar jy_setBackgroundColor:[color colorWithAlphaComponent:0]];
+//    }
+    //第二种方式
+    CGFloat offsetY = scrollView.contentOffset.y;
+    if (offsetY > 0) {
+        if (offsetY >= 44) {
+            [self setNavigationBarTransformProgress:1];
+        } else {
+            [self setNavigationBarTransformProgress:(offsetY / 44)];
+        }
+    } else {
+        [self setNavigationBarTransformProgress:0];
+        self.navigationController.navigationBar.backIndicatorImage = [UIImage new];
+    }
+}
+
+- (void)setNavigationBarTransformProgress:(CGFloat)progress
+{
+    [self.navigationController.navigationBar jy_setTranslationY:(-44 * progress)];
+    [self.navigationController.navigationBar jy_setContentAlpha:(1-progress)];
+}
+
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [self.navigationController.navigationBar jy_reset];
 }
 
 - (void)didReceiveMemoryWarning {

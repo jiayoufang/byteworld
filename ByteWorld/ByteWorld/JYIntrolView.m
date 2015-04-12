@@ -76,13 +76,13 @@
     CGFloat pageFraction = self.scrollView.contentOffset.x / pageWidth;
     self.pageControl.currentPage = roundf(pageFraction);
     if (self.pageControl.currentPage+1 == self.pageControl.numberOfPages) {
-        [UIView animateWithDuration:0.4 delay:0.1 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        [UIView animateWithDuration:1.4 delay:0.1 options:UIViewAnimationOptionCurveEaseInOut animations:^{
             self.doneButton.hidden = NO;
         } completion:^(BOOL finished) {
             
         }];
     }else{
-        [UIView animateWithDuration:0.4 delay:0.1 options:UIViewAnimationOptionTransitionFlipFromBottom animations:^{
+        [UIView animateWithDuration:1.4 delay:0.1 options:UIViewAnimationOptionTransitionFlipFromBottom animations:^{
             self.doneButton.hidden = YES;
         } completion:^(BOOL finished) {
             
