@@ -51,6 +51,8 @@
 		CB8214D81ADBBF8500F281E0 /* NSData+JYContentTypeForImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8214D71ADBBF8500F281E0 /* NSData+JYContentTypeForImageData.m */; };
 		CB8214DC1ADBC15700F281E0 /* JYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8214DB1ADBC15700F281E0 /* JYViewController.m */; };
 		CB8214DF1ADBC17C00F281E0 /* UIView+JYScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8214DE1ADBC17C00F281E0 /* UIView+JYScreenView.m */; };
+		CB8214E31ADBC64300F281E0 /* JYObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8214E21ADBC64300F281E0 /* JYObjectViewController.m */; };
+		CB8214E61ADBC65400F281E0 /* NSObject+JYRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8214E51ADBC65400F281E0 /* NSObject+JYRuntime.m */; };
 		CB8C1DDC1AD61AA3007A08B9 /* JYAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C1DDB1AD61AA3007A08B9 /* JYAnimationViewController.m */; };
 		CB8C1DDF1AD61D2D007A08B9 /* JYAnimation0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C1DDE1AD61D2D007A08B9 /* JYAnimation0ViewController.m */; };
 		CB8C1DE21AD6221E007A08B9 /* JYAnimation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C1DE11AD6221E007A08B9 /* JYAnimation1ViewController.m */; };
@@ -197,6 +199,10 @@
 		CB8214DB1ADBC15700F281E0 /* JYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYViewController.m; sourceTree = "<group>"; };
 		CB8214DD1ADBC17C00F281E0 /* UIView+JYScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JYScreenView.h"; sourceTree = "<group>"; };
 		CB8214DE1ADBC17C00F281E0 /* UIView+JYScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JYScreenView.m"; sourceTree = "<group>"; };
+		CB8214E11ADBC64300F281E0 /* JYObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYObjectViewController.h; sourceTree = "<group>"; };
+		CB8214E21ADBC64300F281E0 /* JYObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYObjectViewController.m; sourceTree = "<group>"; };
+		CB8214E41ADBC65400F281E0 /* NSObject+JYRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JYRuntime.h"; sourceTree = "<group>"; };
+		CB8214E51ADBC65400F281E0 /* NSObject+JYRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JYRuntime.m"; sourceTree = "<group>"; };
 		CB8C1DDA1AD61AA3007A08B9 /* JYAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAnimationViewController.h; sourceTree = "<group>"; };
 		CB8C1DDB1AD61AA3007A08B9 /* JYAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAnimationViewController.m; sourceTree = "<group>"; };
 		CB8C1DDD1AD61D2D007A08B9 /* JYAnimation0ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAnimation0ViewController.h; sourceTree = "<group>"; };
@@ -508,6 +514,17 @@
 			name = "UIView(Screen)";
 			sourceTree = "<group>";
 		};
+		CB8214E01ADBC62800F281E0 /* NSObject((Runtime) */ = {
+			isa = PBXGroup;
+			children = (
+				CB8214E11ADBC64300F281E0 /* JYObjectViewController.h */,
+				CB8214E21ADBC64300F281E0 /* JYObjectViewController.m */,
+				CB8214E41ADBC65400F281E0 /* NSObject+JYRuntime.h */,
+				CB8214E51ADBC65400F281E0 /* NSObject+JYRuntime.m */,
+			);
+			name = "NSObject((Runtime)";
+			sourceTree = "<group>";
+		};
 		CB8C1DD91AD61A5D007A08B9 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
@@ -644,6 +661,7 @@
 		CBCF56881AD650D30085EB16 /* JYKit */ = {
 			isa = PBXGroup;
 			children = (
+				CB8214E01ADBC62800F281E0 /* NSObject((Runtime) */,
 				CB8214D91ADBC13000F281E0 /* UIView(Screen) */,
 				CB8214D21ADBBF5300F281E0 /* NSData */,
 				CB8214CB1ADBBE4D00F281E0 /* NSArray */,
@@ -921,6 +939,7 @@
 				FE50939E1AD9E47E003E5635 /* JYHoledViewController.m in Sources */,
 				CB6C19581ACA3307002E8D76 /* AppDelegate.m in Sources */,
 				CB6C19951ACA81DE002E8D76 /* JYWaterFallViewController.m in Sources */,
+				CB8214E31ADBC64300F281E0 /* JYObjectViewController.m in Sources */,
 				CBCF56931AD65F540085EB16 /* JYAlertViewController.m in Sources */,
 				CB8C1DDC1AD61AA3007A08B9 /* JYAnimationViewController.m in Sources */,
 				FE8F54551AD10E44009FA217 /* JYLockViewController.m in Sources */,
@@ -973,6 +992,7 @@
 				CB41DD681ACB91F10082712F /* JYWaterFallFlowLayout.m in Sources */,
 				CBCF568E1AD651250085EB16 /* JYKitViewController.m in Sources */,
 				FE5093AF1AD9F29C003E5635 /* JYTextViewController.m in Sources */,
+				CB8214E61ADBC65400F281E0 /* NSObject+JYRuntime.m in Sources */,
 				FE5093A11AD9E4F0003E5635 /* JMHoledView.m in Sources */,
 				CB6C19841ACA35D1002E8D76 /* JYTabBar1ViewController.m in Sources */,
 				FE5093A51AD9EC45003E5635 /* JYIntrolViewController.m in Sources */,
