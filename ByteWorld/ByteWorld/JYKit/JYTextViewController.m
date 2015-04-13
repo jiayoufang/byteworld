@@ -34,6 +34,15 @@
     
     [self.view addSubview:self.textView];
     
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(valueChange:) name:UITextViewTextDidChangeNotification object:nil];
+}
+
+-(void)valueChange:(NSNotification*)notification
+{
+    UITextView *textView = notification.object;
+    CGRect rect = textView.frame;
+    rect.size.height = textView.contentSize.height;
+    textView.frame = rect;
 }
 
 - (void)didReceiveMemoryWarning {

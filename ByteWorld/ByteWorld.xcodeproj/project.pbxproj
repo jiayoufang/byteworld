@@ -42,6 +42,7 @@
 		CB6C19901ACA6A55002E8D76 /* JYTabPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6C198F1ACA6A55002E8D76 /* JYTabPushViewController.m */; };
 		CB6C19951ACA81DE002E8D76 /* JYWaterFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6C19941ACA81DE002E8D76 /* JYWaterFallViewController.m */; };
 		CB8214B41ADB5D9500F281E0 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8214B31ADB5D9500F281E0 /* FXBlurView.m */; };
+		CB8214BB1ADBA7B900F281E0 /* JYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8214BA1ADBA7B900F281E0 /* JYButton.m */; };
 		CB8C1DDC1AD61AA3007A08B9 /* JYAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C1DDB1AD61AA3007A08B9 /* JYAnimationViewController.m */; };
 		CB8C1DDF1AD61D2D007A08B9 /* JYAnimation0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C1DDE1AD61D2D007A08B9 /* JYAnimation0ViewController.m */; };
 		CB8C1DE21AD6221E007A08B9 /* JYAnimation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C1DE11AD6221E007A08B9 /* JYAnimation1ViewController.m */; };
@@ -170,6 +171,8 @@
 		CB6C19941ACA81DE002E8D76 /* JYWaterFallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYWaterFallViewController.m; sourceTree = "<group>"; };
 		CB8214B21ADB5D9500F281E0 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
 		CB8214B31ADB5D9500F281E0 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		CB8214B91ADBA7B900F281E0 /* JYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYButton.h; sourceTree = "<group>"; };
+		CB8214BA1ADBA7B900F281E0 /* JYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYButton.m; sourceTree = "<group>"; };
 		CB8C1DDA1AD61AA3007A08B9 /* JYAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAnimationViewController.h; sourceTree = "<group>"; };
 		CB8C1DDB1AD61AA3007A08B9 /* JYAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAnimationViewController.m; sourceTree = "<group>"; };
 		CB8C1DDD1AD61D2D007A08B9 /* JYAnimation0ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAnimation0ViewController.h; sourceTree = "<group>"; };
@@ -495,6 +498,8 @@
 			children = (
 				CBA844D61AD76BB200AFECFF /* JYButtonViewController.h */,
 				CBA844D71AD76BB200AFECFF /* JYButtonViewController.m */,
+				CB8214B91ADBA7B900F281E0 /* JYButton.h */,
+				CB8214BA1ADBA7B900F281E0 /* JYButton.m */,
 			);
 			name = UIButton;
 			sourceTree = "<group>";
@@ -834,6 +839,7 @@
 				FE5093B91AD9F6E9003E5635 /* JYImageViewController.m in Sources */,
 				CBAE63741AD7D47700F0AD9F /* UIView+JYTransitionAnimation.m in Sources */,
 				CB6C195B1ACA3307002E8D76 /* ViewController.m in Sources */,
+				CB8214BB1ADBA7B900F281E0 /* JYButton.m in Sources */,
 				FE8F54581AD10F7F009FA217 /* JYLockView.m in Sources */,
 				CB5F0FCE1AD644A100E2D907 /* JYAnimation4ViewController.m in Sources */,
 				CB6C197E1ACA3566002E8D76 /* JYTabbarViewController.m in Sources */,

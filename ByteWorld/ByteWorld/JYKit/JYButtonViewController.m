@@ -7,6 +7,7 @@
 //
 
 #import "JYButtonViewController.h"
+#import "JYButton.h"
 
 @interface JYButtonViewController ()
 
@@ -19,11 +20,15 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    JYButton *btn = [JYButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(10, 100, 200, 30);
     [btn setTitle:@"按钮" forState:UIControlStateNormal];
-    btn.backgroundColor = [UIColor blueColor];
+//    btn.backgroundColor = [UIColor blueColor];
+    [btn setBackgroundColor:[UIColor redColor] forState:UIControlStateNormal];
+    [btn setBackgroundColor:[UIColor blueColor] forState:UIControlStateHighlighted];
     [self.view addSubview:btn];
+    
+    
     
 }
 

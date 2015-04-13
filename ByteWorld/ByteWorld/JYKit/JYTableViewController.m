@@ -43,7 +43,7 @@ CGFloat const ImgHeight = 589;
 -(NSArray*)dataArray
 {
     if (!_dataArray) {
-        _dataArray = [[NSMutableArray alloc]initWithArray: @[@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView"]];
+        _dataArray = [[NSMutableArray alloc]initWithArray: @[@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView",@"UITableView"]];
     }
     return _dataArray;
 }
@@ -108,7 +108,7 @@ CGFloat const ImgHeight = 589;
         self.scaleImageView.frame = frame;
     }
     
-#if 1
+#if 0
     //第一种方式
     UIColor * color = [UIColor colorWithRed:0/255.0 green:175/255.0 blue:240/255.0 alpha:1];
     CGFloat offsetY = scrollView.contentOffset.y;
