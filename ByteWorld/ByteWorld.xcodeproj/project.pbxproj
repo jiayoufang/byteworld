@@ -41,6 +41,7 @@
 		CB6C198D1ACA4C6B002E8D76 /* JYTabBar4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6C198C1ACA4C6B002E8D76 /* JYTabBar4ViewController.m */; };
 		CB6C19901ACA6A55002E8D76 /* JYTabPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6C198F1ACA6A55002E8D76 /* JYTabPushViewController.m */; };
 		CB6C19951ACA81DE002E8D76 /* JYWaterFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6C19941ACA81DE002E8D76 /* JYWaterFallViewController.m */; };
+		CB8214B41ADB5D9500F281E0 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8214B31ADB5D9500F281E0 /* FXBlurView.m */; };
 		CB8C1DDC1AD61AA3007A08B9 /* JYAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C1DDB1AD61AA3007A08B9 /* JYAnimationViewController.m */; };
 		CB8C1DDF1AD61D2D007A08B9 /* JYAnimation0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C1DDE1AD61D2D007A08B9 /* JYAnimation0ViewController.m */; };
 		CB8C1DE21AD6221E007A08B9 /* JYAnimation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C1DE11AD6221E007A08B9 /* JYAnimation1ViewController.m */; };
@@ -167,6 +168,8 @@
 		CB6C198F1ACA6A55002E8D76 /* JYTabPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTabPushViewController.m; sourceTree = "<group>"; };
 		CB6C19931ACA81DE002E8D76 /* JYWaterFallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYWaterFallViewController.h; sourceTree = "<group>"; };
 		CB6C19941ACA81DE002E8D76 /* JYWaterFallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYWaterFallViewController.m; sourceTree = "<group>"; };
+		CB8214B21ADB5D9500F281E0 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		CB8214B31ADB5D9500F281E0 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
 		CB8C1DDA1AD61AA3007A08B9 /* JYAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAnimationViewController.h; sourceTree = "<group>"; };
 		CB8C1DDB1AD61AA3007A08B9 /* JYAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAnimationViewController.m; sourceTree = "<group>"; };
 		CB8C1DDD1AD61D2D007A08B9 /* JYAnimation0ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAnimation0ViewController.h; sourceTree = "<group>"; };
@@ -559,6 +562,8 @@
 			children = (
 				CBAE63601AD7A90200F0AD9F /* JYBlurViewController.h */,
 				CBAE63611AD7A90200F0AD9F /* JYBlurViewController.m */,
+				CB8214B21ADB5D9500F281E0 /* FXBlurView.h */,
+				CB8214B31ADB5D9500F281E0 /* FXBlurView.m */,
 			);
 			name = Blur;
 			sourceTree = "<group>";
@@ -875,6 +880,7 @@
 				CBAE636E1AD7C9DA00F0AD9F /* JSBadgeView.m in Sources */,
 				CBAE63621AD7A90200F0AD9F /* JYBlurViewController.m in Sources */,
 				CB41DD5A1ACB85400082712F /* SDWebImageManager.m in Sources */,
+				CB8214B41ADB5D9500F281E0 /* FXBlurView.m in Sources */,
 				CBAE63521AD79E8800F0AD9F /* JYBaseView.m in Sources */,
 				CB6C198D1ACA4C6B002E8D76 /* JYTabBar4ViewController.m in Sources */,
 				FE8F54601AD12616009FA217 /* JYClockSlipViewController.m in Sources */,

@@ -96,18 +96,18 @@
 //    self.window.rootViewController = navAnimation;
     
     //各种控件
-    JYKitViewController *kit = [[JYKitViewController alloc]init];
-    UINavigationController *navKit = [[UINavigationController alloc]initWithRootViewController:kit];
-    self.window.rootViewController = navKit;
+//    JYKitViewController *kit = [[JYKitViewController alloc]init];
+//    UINavigationController *navKit = [[UINavigationController alloc]initWithRootViewController:kit];
+//    self.window.rootViewController = navKit;
     
 //    //注册程序Crash后的处理函数
-    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
+//    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
 //
 //    [KKLog logIntial];
     
     //磨砂效果
-//    JYBlurViewController *blur = [[JYBlurViewController alloc]init];
-//    self.window.rootViewController = blur;
+    JYBlurViewController *blur = [[JYBlurViewController alloc]init];
+    self.window.rootViewController = blur;
     
     //添加引导帮助提示
 //    JYHoledViewController *holed = [[JYHoledViewController alloc]init];
