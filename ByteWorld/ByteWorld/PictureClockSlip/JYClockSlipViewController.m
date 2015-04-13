@@ -83,7 +83,7 @@ CGFloat pageCtrlWidth = 200;
     } completion:^(BOOL finished) {
         
     }];
-    NSLog(@"page = %ld ",page);
+    NSLog(@"page = %@ ",@(page));
 }
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView

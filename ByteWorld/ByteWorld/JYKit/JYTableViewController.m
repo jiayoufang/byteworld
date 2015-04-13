@@ -108,16 +108,18 @@ CGFloat const ImgHeight = 589;
         self.scaleImageView.frame = frame;
     }
     
+#if 1
     //第一种方式
-//    UIColor * color = [UIColor colorWithRed:0/255.0 green:175/255.0 blue:240/255.0 alpha:1];
-//    CGFloat offsetY = scrollView.contentOffset.y;
-//    if (offsetY > NAVBAR_CHANGE_POINT) {
-//        CGFloat alpha = 1 - ((NAVBAR_CHANGE_POINT + 64 - offsetY) / 64);
-//        
-//        [self.navigationController.navigationBar jy_setBackgroundColor:[color colorWithAlphaComponent:alpha]];
-//    } else {
-//        [self.navigationController.navigationBar jy_setBackgroundColor:[color colorWithAlphaComponent:0]];
-//    }
+    UIColor * color = [UIColor colorWithRed:0/255.0 green:175/255.0 blue:240/255.0 alpha:1];
+    CGFloat offsetY = scrollView.contentOffset.y;
+    if (offsetY > NAVBAR_CHANGE_POINT) {
+        CGFloat alpha = 1 - ((NAVBAR_CHANGE_POINT + 64 - offsetY) / 64);
+        
+        [self.navigationController.navigationBar jy_setBackgroundColor:[color colorWithAlphaComponent:alpha]];
+    } else {
+        [self.navigationController.navigationBar jy_setBackgroundColor:[color colorWithAlphaComponent:0]];
+    }
+#else
     //第二种方式
     CGFloat offsetY = scrollView.contentOffset.y;
     if (offsetY > 0) {
@@ -130,6 +132,7 @@ CGFloat const ImgHeight = 589;
         [self setNavigationBarTransformProgress:0];
         self.navigationController.navigationBar.backIndicatorImage = [UIImage new];
     }
+#endif
 }
 
 - (void)setNavigationBarTransformProgress:(CGFloat)progress
@@ -147,6 +150,13 @@ CGFloat const ImgHeight = 589;
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)dealloc
+{
+    //解决了滑动状态下返回上一页程序崩溃的问题
+    self.tableView.dataSource = nil;
+    self.tableView.delegate = nil;
 }
 
 /*
