@@ -32,7 +32,7 @@
 -(NSArray*)dataArray
 {
     if (!_dataArray) {
-        _dataArray = @[@"JYTableViewController",@"JYAlertViewController",@"JYWebViewController",@"JYLabelViewController",@"JYButtonViewController",@"JYTextViewController",@"JYImageViewController"];
+        _dataArray = @[@"JYTableViewController",@"JYAlertViewController",@"JYWebViewController",@"JYLabelViewController",@"JYButtonViewController",@"JYTextViewController",@"JYImageViewController",@"JYViewController",@"JYDataViewController",@"JYArrayViewController"];
     }
     return _dataArray;
 }

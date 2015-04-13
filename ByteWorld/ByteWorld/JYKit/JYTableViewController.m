@@ -108,7 +108,7 @@ CGFloat const ImgHeight = 589;
         self.scaleImageView.frame = frame;
     }
     
-#if 0
+#if 1
     //第一种方式
     UIColor * color = [UIColor colorWithRed:0/255.0 green:175/255.0 blue:240/255.0 alpha:1];
     CGFloat offsetY = scrollView.contentOffset.y;
