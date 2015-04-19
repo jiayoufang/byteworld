@@ -20,12 +20,19 @@ self.selectedBtns makeObjectsPerformSelector:@selector(setSelected:) withObject:
 ####（1）白色透明 圆形 方形和自定义控件
 ###8、玻璃模糊效果JYBlurViewController
 ###9、各种数据类型JYFoundation（一些类别和操作方法）
-####(1)NSObject NSData NSArray  NSString 
+####(1)NSObject 
+####(2)NSData
+####(3)NSArray
+####(4)NSString
+#####<1>md5
+#####<2>trim 去空格
+####<3>将汉字转为拼音
+####<4>字符串排序
 ###10、各种控件的一些效果和功能封装JYKit
 ####（1）UIView+JYScreenView 截屏
 ####（2）UITextView 大小随文字多少自适应 有默认文字
 ####（3）UIImage 根据颜色生成图片 产生缩略图 图片模糊效果
 ####（4）UIButton 将不同状态不设置图片，设置颜色
-####（5）UILabel 自适应  竖直方向居中  自动写字动画  默认有删除线或额外的符号
-####（6）UITableView  类似QQ控件效果（图片变大、navigationbar渐隐）
+####（5）UILabel 自适应  竖直方向居中  自动写字动画  默认有删除线或额外的符号 设置自定义字体
+####（6）UITableView  类似QQ控件效果（图片变大、navigationbar渐隐）分割线不靠左(未补全)问题
 ###11、类似QQ列表的实现 JYListViewController
