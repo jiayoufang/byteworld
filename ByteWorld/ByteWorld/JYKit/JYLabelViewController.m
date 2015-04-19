@@ -12,6 +12,10 @@
 #import "UILabel+VerticalAlignment.h"
 #import "UILabel+AutomaticWriting.h"
 
+/*
+ 1、设置自定义字体http://www.jianshu.com/p/d728570bdf7b
+ 
+ */
 @interface JYLabelViewController ()
 
 @end
@@ -29,6 +33,7 @@
     label.textColor = [UIColor blueColor];
     label.textAlignment = NSTextAlignmentLeft;
     label.backgroundColor = [UIColor orangeColor];
+//    label.font = [UIFont fontWithName:@"MComicHK-Medium" size:30];
     [self.view addSubview:label];
     
     [label setText:@"适应Label自适应Label自适应自适应自适应自适应自适应自适应Label自适应Label自适应Label自适应Label自适应Label自适应" automaticWritingAnimationWithDuration:0.13f blinkingMode:UILabelAWBlinkingModeUntilFinish blinkingCharacter:2 completion:^{

@@ -30,6 +30,9 @@
 //各种控件
 #import "JYKit/JYKitViewController.h"
 
+//各种数据结构
+#import "JYFoundationViewController.h"
+
 //Log日志
 #import "KKLog.h"
 
@@ -96,9 +99,15 @@
 //    self.window.rootViewController = navAnimation;
     
     //各种控件
-    JYKitViewController *kit = [[JYKitViewController alloc]init];
-    UINavigationController *navKit = [[UINavigationController alloc]initWithRootViewController:kit];
-    self.window.rootViewController = navKit;
+//    JYKitViewController *kit = [[JYKitViewController alloc]init];
+//    UINavigationController *navKit = [[UINavigationController alloc]initWithRootViewController:kit];
+//    self.window.rootViewController = navKit;
+    
+    //各种数据结构
+    JYFoundationViewController *foundation = [[JYFoundationViewController alloc]init];
+    UINavigationController *navFoundation = [[UINavigationController alloc]initWithRootViewController:foundation];
+    self.window.rootViewController = navFoundation;
+    
     
 //    //注册程序Crash后的处理函数
 //    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);

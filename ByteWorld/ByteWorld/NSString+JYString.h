@@ -19,4 +19,7 @@
  *去空格
  */
 -(NSString*)trim;
+
+//将汉字转化为拼音
+-(NSString*)transformFromChinese;
 @end
